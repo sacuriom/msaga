@@ -1,8 +1,7 @@
 function MDPI14
     % =====================================================================
     % TESIS DOCTORAL: LORAWAN BENCHMARK DASHBOARD - V14 (ASCII CLEAN)
-    % Autor: Tesis MDPI
-    % Fix: Eliminados todos los caracteres no-ASCII (tildes, emojis).
+    % Autor: Santiago Acurio
     %      Garantiza compatibilidad total con el editor.
     % =====================================================================
     clc; close all; warning('off','all');
@@ -380,3 +379,4 @@ function T_out = Fase2_Filter(T_raw, rad)
     T_out=T_raw(kp,:); 
 
 end
+
