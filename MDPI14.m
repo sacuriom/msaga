@@ -19,7 +19,7 @@ function MDPI14
     Cities(6) = struct('Name','Madrid, ESP',    'Lat',40.4168, 'Lon',-3.7038,  'Zoom',14, 'T_GW',25);
 
     % Parametros
-    cfg.apiKey = 'AIzaSyAnWExFoChjUJSrynNmAqKgNutZ9cL4Eq8'; 
+    cfg.apiKey = 'YourGoogleMAPAPIKey'; 
     cfg.pop_size = 40; 
     cfg.max_iter = 50; 
     cfg.w_cov = 2.5; cfg.w_ovr = 0.1; cfg.w_cost = 0.5;
@@ -378,4 +378,5 @@ function T_out = Fase2_Filter(T_raw, rad)
         end
     end
     T_out=T_raw(kp,:); 
+
 end
