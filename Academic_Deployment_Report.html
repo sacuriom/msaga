@@ -1,0 +1,108 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><style>body{font-family:Arial, sans-serif;margin:40px;color:#333;line-height:1.6;} table{border-collapse:collapse;width:100%;margin-bottom:30px;} th,td{border:1px solid #ccc;padding:10px;text-align:center;font-size:14px;} th{background-color:#003366;color:white;} .box{background-color:#f0f4f8;padding:20px;border-left:5px solid #003366;margin-bottom:20px;} h2{color:#003366;border-bottom:2px solid #ccc;padding-bottom:5px;} .log{background-color:#1e1e1e;color:#00ff00;padding:15px;font-family:monospace;font-size:12px;white-space:pre-wrap;}</style></head><body>
+<h1>LoRaWAN Network Deployment & QoS Report</h1>
+<div class="box"><p><strong>Target City:</strong> Ambato, ECU</p><p><strong>Evaluated Area:</strong> 27.33 km²</p><p><strong>Required Coverage:</strong> 98.0%</p></div>
+<h2>1. A Priori RF Parameters (ITU-R 3D Constraints)</h2>
+<table><tr><th>Hardware Profile</th><th>Frequency</th><th>Spreading Factor</th><th>Sensitivity Limit</th><th>Tx Power</th><th>Antenna Height ($H_{ant}$)</th></tr><tr><td>Milesight UG67 Outdoor</td><td>915 MHz</td><td><strong>SF11</strong></td><td>-136.0 dBm</td><td>27.0 dBm</td><td><strong>6 meters</strong></td></tr></table>
+<h2>2. Algorithm Benchmark & Network Health (K-Coverage)</h2>
+<table><tr><th>Optimization Algorithm</th><th>Gateways Deployed</th><th>Physical Coverage</th><th>K=1 (Single Point Failure Risk)</th><th>K=2 (Ideal Redundancy)</th><th>K&ge;3 (Over-provisioning)</th><th>CPU Time (s)</th></tr>
+<tr><td><strong>Greedy SCP</strong></td><td>9</td><td>98.14%</td><td><span style="color:#d32f2f;">30.24%</span></td><td><span style="color:#388e3c;font-weight:bold;">23.18%</span></td><td>44.73%</td><td>0.05s</td></tr>
+<tr><td><strong>K-Medoids 3D</strong></td><td>13</td><td>98.28%</td><td><span style="color:#d32f2f;">28.56%</span></td><td><span style="color:#388e3c;font-weight:bold;">27.36%</span></td><td>42.36%</td><td>7.76s</td></tr>
+<tr><td><strong>Standard SAGA</strong></td><td>9</td><td>98.14%</td><td><span style="color:#d32f2f;">30.24%</span></td><td><span style="color:#388e3c;font-weight:bold;">23.18%</span></td><td>44.73%</td><td>0.07s</td></tr>
+<tr><td><strong>Proposed 3D-M-SAGA</strong></td><td>10</td><td>99.07%</td><td><span style="color:#d32f2f;">20.85%</span></td><td><span style="color:#388e3c;font-weight:bold;">33.49%</span></td><td>44.73%</td><td>0.50s</td></tr>
+</table>
+<h2>3. Detailed Gateway Deployment & QoS Analysis (Spreading Factor Breakdown)</h2>
+<h3>Algorithm: Greedy SCP</h3>
+<table><tr><th>GW ID</th><th>Location (Intersection)</th><th>Altitude (Terrain + $H_{ant}$)</th><th>Average Serving Radius (m)</th><th style="background-color:#2e7d32;">Excellent (SF7-8)</th><th style="background-color:#f57f17;">Good (SF9-10)</th><th style="background-color:#c62828;">Marginal (SF11-12)</th><th>Total Nodes Served</th></tr>
+<tr><td><strong>GW-1</strong></td><td>12 de Noviembre & Joaquín Ayllón</td><td>2581.0 m</td><td>921.9 m</td><td>112</td><td>52</td><td>242</td><td><strong>406</strong></td></tr>
+<tr><td><strong>GW-2</strong></td><td>Alemania (Bogota) & Portugal</td><td>2475.0 m</td><td>621.8 m</td><td>61</td><td>51</td><td>45</td><td><strong>157</strong></td></tr>
+<tr><td><strong>GW-3</strong></td><td>Antonio Arellano & Avenida Rumiñahui</td><td>2664.0 m</td><td>1236.7 m</td><td>98</td><td>37</td><td>65</td><td><strong>200</strong></td></tr>
+<tr><td><strong>GW-4</strong></td><td>Antonio Díaz & José Suarez</td><td>2679.0 m</td><td>684.3 m</td><td>44</td><td>18</td><td>129</td><td><strong>191</strong></td></tr>
+<tr><td><strong>GW-5</strong></td><td>Avenida Pasteur & Cesar Viteri</td><td>2541.0 m</td><td>743.8 m</td><td>124</td><td>78</td><td>135</td><td><strong>337</strong></td></tr>
+<tr><td><strong>GW-6</strong></td><td>Avenida Rodrigo Pachano & El Eucalipto</td><td>2555.0 m</td><td>917.1 m</td><td>162</td><td>27</td><td>62</td><td><strong>251</strong></td></tr>
+<tr><td><strong>GW-7</strong></td><td>Azuay & Biblian</td><td>2636.0 m</td><td>893.3 m</td><td>72</td><td>40</td><td>114</td><td><strong>226</strong></td></tr>
+<tr><td><strong>GW-8</strong></td><td>Española & Galapagos</td><td>2606.0 m</td><td>1171.7 m</td><td>24</td><td>19</td><td>99</td><td><strong>142</strong></td></tr>
+<tr><td><strong>GW-9</strong></td><td>Isaac Robayo & Rodrigo Vela Barahona</td><td>2683.0 m</td><td>500.5 m</td><td>82</td><td>32</td><td>89</td><td><strong>203</strong></td></tr>
+</table>
+<h3>Algorithm: K-Medoids 3D</h3>
+<table><tr><th>GW ID</th><th>Location (Intersection)</th><th>Altitude (Terrain + $H_{ant}$)</th><th>Average Serving Radius (m)</th><th style="background-color:#2e7d32;">Excellent (SF7-8)</th><th style="background-color:#f57f17;">Good (SF9-10)</th><th style="background-color:#c62828;">Marginal (SF11-12)</th><th>Total Nodes Served</th></tr>
+<tr><td><strong>GW-1</strong></td><td>9 de Octubre & Antonio Pineda</td><td>2670.0 m</td><td>472.4 m</td><td>40</td><td>18</td><td>63</td><td><strong>121</strong></td></tr>
+<tr><td><strong>GW-2</strong></td><td>Avenida Atahualpa & Cacha</td><td>2635.0 m</td><td>553.7 m</td><td>55</td><td>32</td><td>61</td><td><strong>148</strong></td></tr>
+<tr><td><strong>GW-3</strong></td><td>Avenida Pasteur & Avenida Unidad Nacional</td><td>2547.0 m</td><td>601.6 m</td><td>98</td><td>59</td><td>93</td><td><strong>250</strong></td></tr>
+<tr><td><strong>GW-4</strong></td><td>Barcelona & Sevilla</td><td>2675.0 m</td><td>615.9 m</td><td>84</td><td>10</td><td>57</td><td><strong>151</strong></td></tr>
+<tr><td><strong>GW-5</strong></td><td>Bayamón & Bogotá</td><td>2512.0 m</td><td>979.4 m</td><td>66</td><td>24</td><td>17</td><td><strong>107</strong></td></tr>
+<tr><td><strong>GW-6</strong></td><td>Camilo Ponce & Placido Camamaño</td><td>2700.0 m</td><td>412.9 m</td><td>68</td><td>51</td><td>29</td><td><strong>148</strong></td></tr>
+<tr><td><strong>GW-7</strong></td><td>Cartagena & Potosí</td><td>2560.0 m</td><td>569.9 m</td><td>153</td><td>33</td><td>25</td><td><strong>211</strong></td></tr>
+<tr><td><strong>GW-8</strong></td><td>El Ciprés & Pasaje Sin Nombre</td><td>2595.0 m</td><td>595.4 m</td><td>56</td><td>19</td><td>12</td><td><strong>87</strong></td></tr>
+<tr><td><strong>GW-9</strong></td><td>Imbabura & Riobamba</td><td>2654.0 m</td><td>665.5 m</td><td>88</td><td>32</td><td>89</td><td><strong>209</strong></td></tr>
+<tr><td><strong>GW-10</strong></td><td>Los Pimientos & Unnamed Road</td><td>2636.0 m</td><td>418.8 m</td><td>41</td><td>4</td><td>9</td><td><strong>54</strong></td></tr>
+<tr><td><strong>GW-11</strong></td><td>Mariano Eguez & Primera Imprenta</td><td>2585.0 m</td><td>686.2 m</td><td>109</td><td>47</td><td>138</td><td><strong>294</strong></td></tr>
+<tr><td><strong>GW-12</strong></td><td>Puerto Rico & Uruguay</td><td>2543.0 m</td><td>537.2 m</td><td>60</td><td>58</td><td>63</td><td><strong>181</strong></td></tr>
+<tr><td><strong>GW-13</strong></td><td>Puntas & Sincholagua</td><td>2602.0 m</td><td>522.7 m</td><td>50</td><td>44</td><td>61</td><td><strong>155</strong></td></tr>
+</table>
+<h3>Algorithm: Standard SAGA</h3>
+<table><tr><th>GW ID</th><th>Location (Intersection)</th><th>Altitude (Terrain + $H_{ant}$)</th><th>Average Serving Radius (m)</th><th style="background-color:#2e7d32;">Excellent (SF7-8)</th><th style="background-color:#f57f17;">Good (SF9-10)</th><th style="background-color:#c62828;">Marginal (SF11-12)</th><th>Total Nodes Served</th></tr>
+<tr><td><strong>GW-1</strong></td><td>12 de Noviembre & Joaquín Ayllón</td><td>2581.0 m</td><td>921.9 m</td><td>112</td><td>52</td><td>242</td><td><strong>406</strong></td></tr>
+<tr><td><strong>GW-2</strong></td><td>Alemania (Bogota) & Portugal</td><td>2475.0 m</td><td>621.8 m</td><td>61</td><td>51</td><td>45</td><td><strong>157</strong></td></tr>
+<tr><td><strong>GW-3</strong></td><td>Antonio Arellano & Avenida Rumiñahui</td><td>2664.0 m</td><td>1236.7 m</td><td>98</td><td>37</td><td>65</td><td><strong>200</strong></td></tr>
+<tr><td><strong>GW-4</strong></td><td>Antonio Díaz & José Suarez</td><td>2679.0 m</td><td>684.3 m</td><td>44</td><td>18</td><td>129</td><td><strong>191</strong></td></tr>
+<tr><td><strong>GW-5</strong></td><td>Avenida Pasteur & Cesar Viteri</td><td>2541.0 m</td><td>743.8 m</td><td>124</td><td>78</td><td>135</td><td><strong>337</strong></td></tr>
+<tr><td><strong>GW-6</strong></td><td>Avenida Rodrigo Pachano & El Eucalipto</td><td>2555.0 m</td><td>917.1 m</td><td>162</td><td>27</td><td>62</td><td><strong>251</strong></td></tr>
+<tr><td><strong>GW-7</strong></td><td>Azuay & Biblian</td><td>2636.0 m</td><td>893.3 m</td><td>72</td><td>40</td><td>114</td><td><strong>226</strong></td></tr>
+<tr><td><strong>GW-8</strong></td><td>Española & Galapagos</td><td>2606.0 m</td><td>1171.7 m</td><td>24</td><td>19</td><td>99</td><td><strong>142</strong></td></tr>
+<tr><td><strong>GW-9</strong></td><td>Isaac Robayo & Rodrigo Vela Barahona</td><td>2683.0 m</td><td>500.5 m</td><td>82</td><td>32</td><td>89</td><td><strong>203</strong></td></tr>
+</table>
+<h3>Algorithm: Proposed 3D-M-SAGA</h3>
+<table><tr><th>GW ID</th><th>Location (Intersection)</th><th>Altitude (Terrain + $H_{ant}$)</th><th>Average Serving Radius (m)</th><th style="background-color:#2e7d32;">Excellent (SF7-8)</th><th style="background-color:#f57f17;">Good (SF9-10)</th><th style="background-color:#c62828;">Marginal (SF11-12)</th><th>Total Nodes Served</th></tr>
+<tr><td><strong>GW-1</strong></td><td>12 de Noviembre & Unnamed Road</td><td>2581.0 m</td><td>903.2 m</td><td>76</td><td>60</td><td>118</td><td><strong>254</strong></td></tr>
+<tr><td><strong>GW-2</strong></td><td>Alemania (Bogota) & Portugal</td><td>2475.0 m</td><td>639.2 m</td><td>61</td><td>57</td><td>44</td><td><strong>162</strong></td></tr>
+<tr><td><strong>GW-3</strong></td><td>Atlanta & Avenida Nassau</td><td>2563.0 m</td><td>568.8 m</td><td>163</td><td>39</td><td>11</td><td><strong>213</strong></td></tr>
+<tr><td><strong>GW-4</strong></td><td>Avenida 12 de Noviembre & Juan Montalvo</td><td>2588.0 m</td><td>775.3 m</td><td>89</td><td>41</td><td>68</td><td><strong>198</strong></td></tr>
+<tr><td><strong>GW-5</strong></td><td>Avenida González Suárez & Avenida de las Américas</td><td>2552.0 m</td><td>696.6 m</td><td>47</td><td>39</td><td>106</td><td><strong>192</strong></td></tr>
+<tr><td><strong>GW-6</strong></td><td>Avenida Jácome Clavijo & Pasaje Moreno Loor</td><td>2686.0 m</td><td>566.7 m</td><td>106</td><td>39</td><td>92</td><td><strong>237</strong></td></tr>
+<tr><td><strong>GW-7</strong></td><td>Avenida Los Chasquis & Avenida los Chasquis</td><td>2652.0 m</td><td>882.2 m</td><td>119</td><td>25</td><td>92</td><td><strong>236</strong></td></tr>
+<tr><td><strong>GW-8</strong></td><td>Avenida Pichincha & Ignacio Indaburo</td><td>2669.0 m</td><td>1085.2 m</td><td>75</td><td>36</td><td>122</td><td><strong>233</strong></td></tr>
+<tr><td><strong>GW-9</strong></td><td>Cesar Viteri & Tarquino Toro</td><td>2540.0 m</td><td>746.3 m</td><td>109</td><td>44</td><td>69</td><td><strong>222</strong></td></tr>
+<tr><td><strong>GW-10</strong></td><td>Esmeraldas & Oriente</td><td>2625.0 m</td><td>869.6 m</td><td>60</td><td>34</td><td>92</td><td><strong>186</strong></td></tr>
+</table>
+<h2>4. Heuristic Execution Logs</h2>
+<h3>Greedy SCP</h3>
+<div class="log">>> STARTING GREEDY SCP HEURISTIC\nStep 1: Gateway assigned at index [9]. Marginal Gain: +1196 nodes. Current Cov: 55.55%
+Step 2: Gateway assigned at index [175]. Marginal Gain: +291 nodes. Current Cov: 69.07%
+Step 3: Gateway assigned at index [624]. Marginal Gain: +220 nodes. Current Cov: 79.28%
+Step 4: Gateway assigned at index [857]. Marginal Gain: +209 nodes. Current Cov: 88.99%
+Step 5: Gateway assigned at index [696]. Marginal Gain: +55 nodes. Current Cov: 91.55%
+Step 6: Gateway assigned at index [1444]. Marginal Gain: +47 nodes. Current Cov: 93.73%
+Step 7: Gateway assigned at index [1636]. Marginal Gain: +44 nodes. Current Cov: 95.77%
+Step 8: Gateway assigned at index [171]. Marginal Gain: +26 nodes. Current Cov: 96.98%
+Step 9: Gateway assigned at index [133]. Marginal Gain: +25 nodes. Current Cov: 98.14%
+>> END GREEDY. Total Gateways: 9</div>
+<h3>K-Medoids 3D</h3>
+<div class="log">>> STARTING SPATIAL K-MEDOIDS 3D\nIteration K=1: Clustering intersections... RF Matrix Evaluated. Coverage: 44.87%
+Iteration K=3: Clustering intersections... RF Matrix Evaluated. Coverage: 66.23%
+Iteration K=5: Clustering intersections... RF Matrix Evaluated. Coverage: 77.57%
+Iteration K=7: Clustering intersections... RF Matrix Evaluated. Coverage: 84.95%
+Iteration K=9: Clustering intersections... RF Matrix Evaluated. Coverage: 90.99%
+Iteration K=11: Clustering intersections... RF Matrix Evaluated. Coverage: 89.22%
+Iteration K=13: Clustering intersections... RF Matrix Evaluated. Coverage: 98.28%
+>> END K-MEDOIDS. Target reached with 13 Gateways.</div>
+<h3>Standard SAGA</h3>
+<div class="log">>> STARTING STANDARD SAGA (Pop Size: 24, Generations: 30)
+Gen 1: Best individual -> Cov: 98.14% | GWs: 9
+Gen 5: Best individual -> Cov: 98.14% | GWs: 9
+Gen 10: Best individual -> Cov: 98.14% | GWs: 9
+Gen 15: Best individual -> Cov: 98.14% | GWs: 9
+Gen 20: Best individual -> Cov: 98.14% | GWs: 9
+Gen 25: Best individual -> Cov: 98.14% | GWs: 9
+Gen 30: Best individual -> Cov: 98.14% | GWs: 9
+>> END STANDARD SAGA. Best solution exported with 9 Gateways.</div>
+<h3>Proposed 3D-M-SAGA</h3>
+<div class="log">>> STARTING 3D-M-SAGA (Pop Size: 24, Generations: 30)
+Gen 1: Best individual -> Cov: 98.14% | GWs: 9
+Gen 5: Best individual -> Cov: 99.07% | GWs: 12
+Gen 10: Best individual -> Cov: 98.89% | GWs: 10
+Gen 15: Best individual -> Cov: 98.98% | GWs: 10
+Gen 20: Best individual -> Cov: 98.98% | GWs: 10
+Gen 25: Best individual -> Cov: 99.07% | GWs: 10
+Gen 30: Best individual -> Cov: 99.21% | GWs: 10
+>> END 3D-M-SAGA. Best solution exported with 10 Gateways.</div>
+</body></html>
