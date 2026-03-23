@@ -1,0 +1,917 @@
+Node_ID,Primary_Street,Secondary_Street,Morphological_Clutter,Altitude_m,Latitude,Longitude,Serving_GW_ID,RSSI_dBm,Status
+1,Abdón Calderón Muñoz,Avenida 6 de Diciembre,Residential,2793,-0.1609135,-78.476594,1,-97.26,CONNECTED
+2,Abdón Calderón Muñoz,Avenida de los Shyris,Residential,2788,-0.1618944,-78.4782878,1,-96.2,CONNECTED
+3,Abel Gilbert,Antonio Flores Jijón,Residential,2885,-0.1872205,-78.4725904,2,-122.33,CONNECTED
+4,Abel Gilbert,Borrero,Park/Periphery,2881,-0.1862094,-78.4723991,5,-133.04,CONNECTED
+5,Agustin Franco,Jiménez de la Espada,Residential,2803,-0.1933831,-78.4803204,2,-99.17,CONNECTED
+6,Agustin Franco,Juan Ignacio Pareja,Residential,2780,-0.1930476,-78.4809704,2,-85.09,CONNECTED
+7,Agustin Guerrero,Japón,Residential,2773,-0.1708426,-78.4828353,1,-91.53,CONNECTED
+8,Agustin Guerrero,Jose Maria Ayora,Residential,2789,-0.1706294,-78.4839699,1,-93.72,CONNECTED
+9,Agustin Guerrero,Julio Alarcon,Residential,2782,-0.170738,-78.4834328,1,-92.72,CONNECTED
+10,Alberto Coloma Silva,Bernardo Rodriguez,Residential,2523,-0.1865628,-78.4475981,4,-121.86,CONNECTED
+11,Alberto Guerrero Martínez,Federico Paez,Residential,2843,-0.1845403,-78.4750818,1,-118.92,CONNECTED
+12,Alberto Guerrero Martínez,Francisco Arízaga Luque,Residential,2850,-0.1826192,-78.4740651,1,-117.49,CONNECTED
+13,Alberto Guerrero Martínez,Guanguiltagua,Residential,2862,-0.1826168,-78.4735134,5,-109.14,CONNECTED
+14,Alberto Guerrero Martínez,Guanguiltagua,Residential,2862,-0.1822902,-78.4734369,5,-108.95,CONNECTED
+15,Alberto Guerrero Martínez,Unnamed Road,Residential,2843,-0.1843475,-78.4750253,1,-118.73,CONNECTED
+16,Alberto Larrea,Juan Severino,Dense Urban,2776,-0.191137,-78.4825504,2,-121.66,CONNECTED
+17,Alberto Mena,Avenida González Suárez,Residential,2851,-0.1941651,-78.4773459,2,-110.61,CONNECTED
+18,Alberto Mena,Avenida la Coruña,Residential,2839,-0.1936849,-78.478356,2,-108,CONNECTED
+19,Alberto Mena,Avenida la Coruña,Residential,2840,-0.1937234,-78.4782726,2,-108.22,CONNECTED
+20,Alberto Mena,E13C,Residential,2847,-0.1940043,-78.4776656,2,-109.79,CONNECTED
+21,Alemania,Avenida Río Amazonas,Park/Periphery,2784,-0.1861319,-78.4874426,2,-118.55,CONNECTED
+22,Alfonso Pereira,Avenida 10 de Agosto,Residential,2791,-0.1711232,-78.4873791,1,-98.75,CONNECTED
+23,Alfonso Pereira,Avenida Río Amazonas,Residential,2785,-0.1716202,-78.4847729,1,-95.11,CONNECTED
+24,Alfonso Pereira,Avenida Río Amazonas,Residential,2787,-0.171598,-78.4848906,1,-95.29,CONNECTED
+25,Alfonso Pereira,Coronel Conor,Residential,2789,-0.1713634,-78.4861395,1,-97.13,CONNECTED
+26,Alfonso Pereira,Iñaquito,Residential,2789,-0.1712526,-78.4867323,1,-97.92,CONNECTED
+27,Alfonso Pereira,Japón,Residential,2779,-0.1719271,-78.4830332,1,-92.06,CONNECTED
+28,Alfonso Pereira,Jorge Drom,Residential,2785,-0.1714732,-78.4855816,1,-96.34,CONNECTED
+29,Alfonso Pereira,Jose Maria Ayora,Residential,2773,-0.1717335,-78.4841326,1,-94.06,CONNECTED
+30,Alfonso Pereira,Julio Alarcon,Residential,2781,-0.1718278,-78.4836296,1,-93.18,CONNECTED
+31,Alfonso Rumazo Gonzalez,Juan de Illanes,Residential,2861,-0.1710438,-78.4693267,5,-99.41,CONNECTED
+32,Alfonso Rumazo Gonzalez,Unnamed Road,Residential,2868,-0.1706402,-78.4686555,5,-98.51,CONNECTED
+33,Alfonso de Lamartine,Avenida París,Dense Urban,2781,-0.1666982,-78.4783038,1,-121.28,CONNECTED
+34,Alfonso de Lamartine,Pablo Claudel,Dense Urban,2782,-0.1667879,-78.4778129,1,-120.28,CONNECTED
+35,Alpallana,Antonio Navarro,Residential,2779,-0.1922447,-78.4848286,2,-82.87,CONNECTED
+36,Alpallana,Avenida 6 de Diciembre,Dense Urban,2777,-0.1955531,-78.4827892,2,-100.98,CONNECTED
+37,Alpallana,Avenida Diego de Almagro,Dense Urban,2780,-0.1950441,-78.4836558,2,-93.41,CONNECTED
+38,Alpallana,Avenida Diego de Almagro,Dense Urban,2781,-0.1949287,-78.4836907,2,-94.81,CONNECTED
+39,Alpallana,Francisco Flor,Residential,2776,-0.1914261,-78.4852039,2,-85.92,CONNECTED
+40,Alpallana,Martín Carrion,Residential,2772,-0.1934054,-78.4843382,2,-77.1,CONNECTED
+41,Alpallana,Whymper,Residential,2777,-0.1924799,-78.4847159,2,-81.85,CONNECTED
+42,Antisana,Avenida Ilinza,Park/Periphery,2567,-0.1804475,-78.4477132,0,-150,OUTAGE
+43,Antisana,S17b,Park/Periphery,2565,-0.1812137,-78.448445,4,-127.02,CONNECTED
+44,Antonio Flores Jijón,Ignacio Lasso,Residential,2871,-0.1872867,-78.4736914,5,-111.42,CONNECTED
+45,Antonio Flores Jijón,José Carbo,Residential,2875,-0.1873091,-78.4734124,5,-111.37,CONNECTED
+46,Antonio Flores Jijón,Manuel Sotomayor,Residential,2893,-0.1870761,-78.472072,2,-123.14,CONNECTED
+47,Antonio Flores Jijón,Quiteño Libre,Residential,2865,-0.187253,-78.4742735,5,-111.53,CONNECTED
+48,Antonio Flores Jijón,Sotomayor,Park/Periphery,2905,-0.1873519,-78.470192,0,-150,OUTAGE
+49,Antonio Navarro,Avenida de los Shyris,Residential,2773,-0.1901099,-78.4820162,2,-90.17,CONNECTED
+50,Antonio Navarro,Carlos Tobar,Dense Urban,2769,-0.1918287,-78.484039,2,-118.04,CONNECTED
+51,Antonio Navarro,Francisco Andrade Marin,Dense Urban,2776,-0.1913852,-78.4832871,2,-120.12,CONNECTED
+52,Antonio Navarro,Juan Severino,Dense Urban,2773,-0.1910183,-78.4828518,2,-121.74,CONNECTED
+53,Antonio Navarro,Pablo Suarez,Residential,2771,-0.1904382,-78.4825943,2,-88.98,CONNECTED
+54,Antonio Navarro,Unnamed Road,Residential,2773,-0.1920443,-78.48445,2,-83.44,CONNECTED
+55,Arosemena Tola,Avenida General Eloy Alfaro,Residential,2821,-0.1796711,-78.4741048,1,-110.9,CONNECTED
+56,Arosemena Tola,Avenida General Eloy Alfaro,Residential,2823,-0.1795499,-78.4740704,1,-110.98,CONNECTED
+57,Arosemena Tola,Eduardo Salazar Gomez,Residential,2846,-0.1780688,-78.472558,1,-111.71,CONNECTED
+58,Arosemena Tola,Guanguiltagua,Park/Periphery,2852,-0.177652,-78.4721473,1,-132.67,CONNECTED
+59,Arosemena Tola,Guanguiltagua,Park/Periphery,2858,-0.1771805,-78.4717039,5,-127.32,CONNECTED
+60,Arosemena Tola,Juan de Dios Martinez,Residential,2838,-0.1789043,-78.4733615,1,-111.83,CONNECTED
+61,Augusto Egas,José Bosmediano,Residential,2867,-0.1893547,-78.4748036,5,-112.54,CONNECTED
+62,Austria,Checoslovaquia,Residential,2776,-0.1857292,-78.4800361,2,-98.29,CONNECTED
+63,Austria,Irlanda,Residential,2780,-0.1839469,-78.4796958,2,-100.4,CONNECTED
+64,Avenida 10 de Agosto,Avenida América,Residential,2786,-0.1680322,-78.4873742,1,-99.2,CONNECTED
+65,Avenida 10 de Agosto,Avenida América,Residential,2788,-0.1683735,-78.487224,1,-98.93,CONNECTED
+66,Avenida 10 de Agosto,Avenida El Inca,Residential,2790,-0.1604,-78.4857215,1,-102.08,CONNECTED
+67,Avenida 10 de Agosto,Avenida Gaspar de Villarroel,Residential,2779,-0.1682843,-78.4865534,1,-98.14,CONNECTED
+68,Avenida 10 de Agosto,Avenida Gaspar de Villarroel,Residential,2780,-0.1684632,-78.48678,1,-98.36,CONNECTED
+69,Avenida 10 de Agosto,Avenida Juan José Villalengua,Residential,2788,-0.1725159,-78.4876469,1,-99.2,CONNECTED
+70,Avenida 10 de Agosto,Avenida Juan de Ascaray,Residential,2783,-0.1667263,-78.4863097,1,-98.48,CONNECTED
+71,Avenida 10 de Agosto,Avenida Juan de Ascaray,Residential,2784,-0.1669958,-78.4863197,1,-98.36,CONNECTED
+72,Avenida 10 de Agosto,Avenida Río Coca,Residential,2790,-0.1615169,-78.4856464,1,-101.22,CONNECTED
+73,Avenida 10 de Agosto,Avenida de la Prensa,Residential,2784,-0.166808,-78.4871503,1,-99.4,CONNECTED
+74,Avenida 10 de Agosto,Avenida de la Prensa,Residential,2792,-0.1664175,-78.4867331,1,-99.11,CONNECTED
+75,Avenida 10 de Agosto,Fray José Falconí,Residential,2784,-0.1628444,-78.4858813,1,-100.45,CONNECTED
+76,Avenida 10 de Agosto,Fray José Falconí,Residential,2784,-0.1627974,-78.4857919,1,-100.41,CONNECTED
+77,Avenida 10 de Agosto,Fray José Falconí,Residential,2785,-0.1628354,-78.4859573,1,-100.52,CONNECTED
+78,Avenida 10 de Agosto,Fray José Falconí,Residential,2786,-0.1628253,-78.48602,1,-100.58,CONNECTED
+79,Avenida 10 de Agosto,Joaquín Auz,Residential,2792,-0.1736785,-78.4878765,1,-99.71,CONNECTED
+80,Avenida 10 de Agosto,José Arizaga,Residential,2793,-0.1698874,-78.4871655,1,-98.55,CONNECTED
+81,Avenida 10 de Agosto,Juan Diguja,Residential,2796,-0.1718509,-78.4877163,1,-99.2,CONNECTED
+82,Avenida 10 de Agosto,Papallacta,Residential,2786,-0.1619944,-78.4859205,1,-101.08,CONNECTED
+83,Avenida 10 de Agosto,Rio Cofanes,Residential,2786,-0.1623644,-78.4857579,1,-100.69,CONNECTED
+84,Avenida 6 de Diciembre,Avenida Diego de Almagro,Residential,2774,-0.1909851,-78.4819353,2,-88.26,CONNECTED
+85,Avenida 6 de Diciembre,Avenida Diego de Almagro,Residential,2776,-0.1913208,-78.4818164,2,-87.6,CONNECTED
+86,Avenida 6 de Diciembre,Avenida Francisco de Orellana,Dense Urban,2770,-0.1986509,-78.4843808,2,-112.99,CONNECTED
+87,Avenida 6 de Diciembre,Avenida Francisco de Orellana,Dense Urban,2771,-0.1986831,-78.484263,2,-113.14,CONNECTED
+88,Avenida 6 de Diciembre,Avenida Francisco de Orellana,Dense Urban,2773,-0.1987438,-78.4844232,2,-113.52,CONNECTED
+89,Avenida 6 de Diciembre,Avenida Francisco de Orellana,Dense Urban,2774,-0.1987883,-78.4843147,2,-113.73,CONNECTED
+90,Avenida 6 de Diciembre,Avenida Gaspar de Villarroel,Residential,2781,-0.1709844,-78.4761659,1,0.32,CONNECTED
+91,Avenida 6 de Diciembre,Avenida Gaspar de Villarroel,Residential,2781,-0.1709537,-78.476318,1,-39.26,CONNECTED
+92,Avenida 6 de Diciembre,Avenida Gaspar de Villarroel,Residential,2781,-0.1708886,-78.4761638,1,-32.56,CONNECTED
+93,Avenida 6 de Diciembre,Avenida Gaspar de Villarroel,Residential,2782,-0.1708573,-78.4763177,1,-42.66,CONNECTED
+94,Avenida 6 de Diciembre,Avenida General Eloy Alfaro,Residential,2777,-0.1870583,-78.4796752,2,-96.87,CONNECTED
+95,Avenida 6 de Diciembre,Avenida General Eloy Alfaro,Residential,2779,-0.1868714,-78.479608,2,-97.14,CONNECTED
+96,Avenida 6 de Diciembre,Avenida General Eloy Alfaro,Residential,2781,-0.1867438,-78.4794261,2,-97.42,CONNECTED
+97,Avenida 6 de Diciembre,Avenida General Eloy Alfaro,Residential,2782,-0.1869239,-78.4794813,2,-97.16,CONNECTED
+98,Avenida 6 de Diciembre,Avenida Naciones Unidas,Residential,2781,-0.1774402,-78.4778976,1,-91.55,CONNECTED
+99,Avenida 6 de Diciembre,Avenida Naciones Unidas,Residential,2781,-0.1774097,-78.4780515,1,-91.58,CONNECTED
+100,Avenida 6 de Diciembre,Avenida Naciones Unidas,Residential,2781,-0.1771968,-78.4778418,1,-91.03,CONNECTED
+101,Avenida 6 de Diciembre,Avenida Naciones Unidas,Residential,2781,-0.1771674,-78.4779969,1,-91.06,CONNECTED
+102,Avenida 6 de Diciembre,Avenida Paul Rivet,Dense Urban,2786,-0.1964687,-78.483117,2,-99.43,CONNECTED
+103,Avenida 6 de Diciembre,Avenida Paul Rivet,Dense Urban,2786,-0.196403,-78.4830774,2,-99.41,CONNECTED
+104,Avenida 6 de Diciembre,Avenida Portugal,Residential,2781,-0.1820074,-78.4787835,1,-98.89,CONNECTED
+105,Avenida 6 de Diciembre,Avenida Portugal,Residential,2782,-0.1822336,-78.4786752,1,-99.13,CONNECTED
+106,Avenida 6 de Diciembre,Avenida Portugal,Residential,2782,-0.1821402,-78.4788025,1,-99.05,CONNECTED
+107,Avenida 6 de Diciembre,Avenida Portugal,Residential,2782,-0.1821277,-78.4786591,1,-99,CONNECTED
+108,Avenida 6 de Diciembre,Avenida Río Coca,Residential,2790,-0.1633756,-78.4753226,1,-93.44,CONNECTED
+109,Avenida 6 de Diciembre,Avenida Río Coca,Residential,2791,-0.1635237,-78.4750863,1,-93.23,CONNECTED
+110,Avenida 6 de Diciembre,Avenida Río Coca,Dense Urban,2791,-0.1634748,-78.4752995,1,-128.81,CONNECTED
+111,Avenida 6 de Diciembre,Avenida Río Coca,Residential,2791,-0.1634207,-78.4751119,1,-93.41,CONNECTED
+112,Avenida 6 de Diciembre,Avenida Tomas de Berlanga,Residential,2784,-0.1657405,-78.4756293,1,-88.25,CONNECTED
+113,Avenida 6 de Diciembre,Avenida Tomas de Berlanga,Residential,2784,-0.1656712,-78.4756157,1,-88.44,CONNECTED
+114,Avenida 6 de Diciembre,Avenida Tomas de Berlanga,Residential,2785,-0.1657665,-78.4754842,1,-88.23,CONNECTED
+115,Avenida 6 de Diciembre,Avenida Tomas de Berlanga,Residential,2785,-0.1656988,-78.4754715,1,-88.41,CONNECTED
+116,Avenida 6 de Diciembre,Avenida de la República,Dense Urban,2774,-0.1970517,-78.4835537,2,-101.35,CONNECTED
+117,Avenida 6 de Diciembre,Avenida de la República,Dense Urban,2775,-0.196947,-78.4835011,2,-100.54,CONNECTED
+118,Avenida 6 de Diciembre,Avenida de las Palmeras,Residential,2790,-0.163172,-78.4752407,1,-93.82,CONNECTED
+119,Avenida 6 de Diciembre,Avenida de los Granados,Residential,2786,-0.1692242,-78.476338,1,-73.08,CONNECTED
+120,Avenida 6 de Diciembre,Avenida de los Granados,Residential,2786,-0.1692118,-78.476206,1,-73.12,CONNECTED
+121,Avenida 6 de Diciembre,Avenida de los Granados,Residential,2787,-0.169316,-78.4762116,1,-72.28,CONNECTED
+122,Avenida 6 de Diciembre,Avenida de los Granados,Residential,2787,-0.1693063,-78.4763527,1,-72.44,CONNECTED
+123,Avenida 6 de Diciembre,Avenida de los Shyris,Residential,2772,-0.1902654,-78.481534,2,-90.28,CONNECTED
+124,Avenida 6 de Diciembre,Avenida de los Shyris,Residential,2774,-0.1906829,-78.4818396,2,-89.07,CONNECTED
+125,Avenida 6 de Diciembre,Avenida de los Shyris,Park/Periphery,2792,-0.159733,-78.4772427,1,-120.15,CONNECTED
+126,Avenida 6 de Diciembre,Belo Horizonte,Dense Urban,2776,-0.1974945,-78.4837893,2,-104.9,CONNECTED
+127,Avenida 6 de Diciembre,Belo Horizonte,Dense Urban,2779,-0.1975883,-78.4837031,2,-105.91,CONNECTED
+128,Avenida 6 de Diciembre,Bélgica,Residential,2770,-0.1899021,-78.4811634,2,-91.35,CONNECTED
+129,Avenida 6 de Diciembre,California,Residential,2787,-0.1781909,-78.4782045,1,-93.14,CONNECTED
+130,Avenida 6 de Diciembre,Checoslovaquia,Residential,2777,-0.1858723,-78.4793804,2,-98.46,CONNECTED
+131,Avenida 6 de Diciembre,Checoslovaquia,Residential,2779,-0.1856763,-78.4792081,2,-98.78,CONNECTED
+132,Avenida 6 de Diciembre,De los Angeles,Residential,2791,-0.1614465,-78.4761721,1,-96.5,CONNECTED
+133,Avenida 6 de Diciembre,El Batán,Residential,2779,-0.1835319,-78.4788548,1,-100.62,CONNECTED
+134,Avenida 6 de Diciembre,El Comercio,Residential,2786,-0.1761346,-78.4777172,1,-88.54,CONNECTED
+135,Avenida 6 de Diciembre,El Jardin,Residential,2787,-0.1803003,-78.4785534,1,-96.61,CONNECTED
+136,Avenida 6 de Diciembre,El Mercurio,Residential,2778,-0.1747025,-78.4773459,1,-84.07,CONNECTED
+137,Avenida 6 de Diciembre,El Telégrafo,Residential,2785,-0.1735896,-78.477051,1,-79.22,CONNECTED
+138,Avenida 6 de Diciembre,Ernesto Noboa Caamaño,Dense Urban,2775,-0.1971257,-78.483464,2,-102.53,CONNECTED
+139,Avenida 6 de Diciembre,Ernesto Noboa Caamaño,Dense Urban,2777,-0.1970423,-78.4834199,2,-101.97,CONNECTED
+140,Avenida 6 de Diciembre,Gaspar Cañero,Residential,2781,-0.1828304,-78.4787621,1,-99.83,CONNECTED
+141,Avenida 6 de Diciembre,Germán Alemán,Residential,2785,-0.1794133,-78.47826,1,-95.19,CONNECTED
+142,Avenida 6 de Diciembre,Gonzalo Serrano,Residential,2777,-0.1754762,-78.4774298,1,-86.56,CONNECTED
+143,Avenida 6 de Diciembre,Guillermo Bodero,Residential,2777,-0.1936301,-78.481774,2,-81.36,CONNECTED
+144,Avenida 6 de Diciembre,Hugo Moncayo,Residential,2788,-0.1725361,-78.4765811,1,-71.75,CONNECTED
+145,Avenida 6 de Diciembre,Ignacio Bossano,Residential,2783,-0.1887888,-78.4803088,2,-94,CONNECTED
+146,Avenida 6 de Diciembre,Irlanda,Residential,2779,-0.184064,-78.4790662,2,-100.54,CONNECTED
+147,Avenida 6 de Diciembre,Jose Correa,Residential,2783,-0.1761628,-78.4776018,1,-88.52,CONNECTED
+148,Avenida 6 de Diciembre,José Bosmediano,Residential,2777,-0.1874095,-78.4796478,2,-96.44,CONNECTED
+149,Avenida 6 de Diciembre,José Bosmediano,Residential,2779,-0.1872615,-78.4795967,2,-96.66,CONNECTED
+150,Avenida 6 de Diciembre,Juan Boussingault,Residential,2771,-0.1914583,-78.4809295,2,-88.56,CONNECTED
+151,Avenida 6 de Diciembre,Julio Moreno,Residential,2782,-0.1808635,-78.4784811,1,-97.36,CONNECTED
+152,Avenida 6 de Diciembre,La Niña,Residential,2786,-0.2000233,-78.4850759,2,-85.61,CONNECTED
+153,Avenida 6 de Diciembre,Louvre Rousseau,Residential,2795,-0.1642339,-78.4753855,1,-91.79,CONNECTED
+154,Avenida 6 de Diciembre,Luis Martínez,Dense Urban,2783,-0.1944285,-78.4822504,2,-109.46,CONNECTED
+155,Avenida 6 de Diciembre,Manuel María Sánchez,Residential,2783,-0.1778757,-78.4779906,1,-92.45,CONNECTED
+156,Avenida 6 de Diciembre,Manuel María Sánchez,Residential,2786,-0.1784842,-78.4780897,1,-93.6,CONNECTED
+157,Avenida 6 de Diciembre,Maria Angelica Carrillo,Residential,2780,-0.1746806,-78.4772136,1,-83.86,CONNECTED
+158,Avenida 6 de Diciembre,Maria Angelica Carrillo,Residential,2782,-0.1746002,-78.4771903,1,-83.55,CONNECTED
+159,Avenida 6 de Diciembre,N44b,Residential,2790,-0.161436,-78.4763069,1,-96.51,CONNECTED
+160,Avenida 6 de Diciembre,N44c,Residential,2791,-0.1612848,-78.4763899,1,-96.73,CONNECTED
+161,Avenida 6 de Diciembre,Noruega,Residential,2779,-0.1864746,-78.4795166,2,-97.68,CONNECTED
+162,Avenida 6 de Diciembre,Pasaje Carlos Tamayo,Residential,2784,-0.1807748,-78.4786214,1,-97.28,CONNECTED
+163,Avenida 6 de Diciembre,Pasaje los Naranjos N35a,Residential,2783,-0.1812696,-78.478687,1,-97.95,CONNECTED
+164,Avenida 6 de Diciembre,Pedro Ponce Carrasco,Residential,2777,-0.1922849,-78.4813691,2,-85.95,CONNECTED
+165,Avenida 6 de Diciembre,Pedro Ponce Carrasco,Residential,2778,-0.1923412,-78.4812805,2,-85.99,CONNECTED
+166,Avenida 6 de Diciembre,Portete,Residential,2786,-0.1734225,-78.4768471,1,-78.06,CONNECTED
+167,Avenida 6 de Diciembre,San Ignacio,Residential,2787,-0.2003949,-78.4851402,2,-86.76,CONNECTED
+168,Avenida 6 de Diciembre,Turquia,Residential,2786,-0.1788943,-78.4783308,1,-94.4,CONNECTED
+169,Avenida 6 de Diciembre,Vía Interoceánica,Residential,2773,-0.1905368,-78.4809402,2,-90.38,CONNECTED
+170,Avenida 6 de Diciembre,Whymper,Dense Urban,2782,-0.1942561,-78.4820525,2,-111.21,CONNECTED
+171,Avenida 6 de Diciembre,Whymper,Dense Urban,2782,-0.1941747,-78.4820144,2,-111.7,CONNECTED
+172,Avenida 6 de Diciembre,Whymper,Dense Urban,2784,-0.1941581,-78.4821226,2,-111.22,CONNECTED
+173,Avenida América,Avenida de la Prensa,Residential,2782,-0.1678095,-78.4869994,1,-98.84,CONNECTED
+174,Avenida América,Avenida de la Prensa,Residential,2791,-0.1662794,-78.4870866,1,-99.56,CONNECTED
+175,Avenida América,Buoguer,Residential,2795,-0.1674898,-78.4874862,1,-99.51,CONNECTED
+176,Avenida Atahualpa,Avenida Río Amazonas,Residential,2780,-0.181589,-78.4866579,2,-102.21,CONNECTED
+177,Avenida Atahualpa,Avenida Río Amazonas,Residential,2781,-0.1816044,-78.486534,2,-102.17,CONNECTED
+178,Avenida Atahualpa,Avenida Río Amazonas,Residential,2781,-0.1814661,-78.4865135,2,-102.3,CONNECTED
+179,Avenida Atahualpa,Avenida Río Amazonas,Residential,2781,-0.1814506,-78.4866335,2,-102.34,CONNECTED
+180,Avenida Atahualpa,Juan Gonzalez,Residential,2789,-0.1817607,-78.487216,2,-102.15,CONNECTED
+181,Avenida Atahualpa,Nuñez de Vela,Residential,2793,-0.1821962,-78.4877629,2,-101.86,CONNECTED
+182,Avenida Diego de Almagro,Avenida Francisco de Orellana,Residential,2784,-0.1981402,-78.4866757,2,-82.38,CONNECTED
+183,Avenida Diego de Almagro,Avenida Francisco de Orellana,Residential,2784,-0.1980716,-78.4864874,2,-81.62,CONNECTED
+184,Avenida Diego de Almagro,Avenida Francisco de Orellana,Residential,2786,-0.1980336,-78.4866237,2,-81.92,CONNECTED
+185,Avenida Diego de Almagro,Avenida de la República,Dense Urban,2776,-0.1956686,-78.4842158,2,-57.78,CONNECTED
+186,Avenida Diego de Almagro,Avenida de la República,Dense Urban,2776,-0.1955462,-78.4841272,2,-70.45,CONNECTED
+187,Avenida Diego de Almagro,Avenida de la República,Dense Urban,2777,-0.1957612,-78.4841736,2,-17.68,CONNECTED
+188,Avenida Diego de Almagro,Avenida de la República,Dense Urban,2777,-0.1956402,-78.484086,2,-64.05,CONNECTED
+189,Avenida Diego de Almagro,Belo Horizonte,Dense Urban,2780,-0.1969462,-78.4850205,2,-101.64,CONNECTED
+190,Avenida Diego de Almagro,Bulgaria,Dense Urban,2778,-0.1929785,-78.4827732,2,-114.18,CONNECTED
+191,Avenida Diego de Almagro,Francisco Andrade Marin,Residential,2773,-0.1921869,-78.4823263,2,-84.5,CONNECTED
+192,Avenida Diego de Almagro,Francisco Andrade Marin,Residential,2773,-0.1921502,-78.4824282,2,-84.46,CONNECTED
+193,Avenida Diego de Almagro,Hernan Cortez,Park/Periphery,2783,-0.199362,-78.4872058,2,-106.84,CONNECTED
+194,Avenida Diego de Almagro,Juan Severino,Residential,2778,-0.19133,-78.4820811,2,-87.24,CONNECTED
+195,Avenida Diego de Almagro,La Niña,Residential,2777,-0.1990418,-78.4870669,2,-85.66,CONNECTED
+196,Avenida Diego de Almagro,La Pinta,Park/Periphery,2787,-0.1998299,-78.4874068,2,-108.34,CONNECTED
+197,Avenida Diego de Almagro,La Pradera,Dense Urban,2782,-0.1963018,-78.4846977,2,-90.78,CONNECTED
+198,Avenida Diego de Almagro,La Pradera,Dense Urban,2784,-0.1963302,-78.484589,2,-89.71,CONNECTED
+199,Avenida Diego de Almagro,Mariano Aguilera,Dense Urban,2782,-0.196173,-78.4845979,2,-86.81,CONNECTED
+200,Avenida Diego de Almagro,Pedro Ponce Carrasco,Residential,2774,-0.1919465,-78.4822294,2,-85.36,CONNECTED
+201,Avenida Diego de Almagro,Pedro Ponce Carrasco,Residential,2775,-0.1919092,-78.482322,2,-85.34,CONNECTED
+202,Avenida Diego de Almagro,Santa María,Park/Periphery,2791,-0.2006032,-78.4877443,2,-110.57,CONNECTED
+203,Avenida Diego de Almagro,Vía Interoceánica,Residential,2776,-0.191324,-78.4815213,2,-87.98,CONNECTED
+204,Avenida Diego de Almagro,Whymper,Dense Urban,2789,-0.1937114,-78.4829683,2,-109.74,CONNECTED
+205,Avenida Diego de Almagro,Whymper,Dense Urban,2791,-0.1936515,-78.4830594,2,-109.8,CONNECTED
+206,Avenida El Inca,Avenida de la Prensa,Residential,2794,-0.1615906,-78.4874946,1,-102.52,CONNECTED
+207,Avenida El Inca,Avenida de la Prensa,Residential,2795,-0.1614842,-78.4873166,1,-102.46,CONNECTED
+208,Avenida El Inca,Avenida de la Prensa,Residential,2795,-0.1614816,-78.4875072,1,-102.6,CONNECTED
+209,Avenida El Inca,Avenida de la Prensa,Residential,2797,-0.1613366,-78.4873519,1,-102.58,CONNECTED
+210,Avenida Eloy Alfaro,Avenida General Eloy Alfaro,Residential,2771,-0.1881557,-78.4814098,2,-94.21,CONNECTED
+211,Avenida Eloy Alfaro,Avenida General Eloy Alfaro,Residential,2772,-0.1880417,-78.4814791,2,-94.36,CONNECTED
+212,Avenida Francisco de Orellana,Avenida la Coruña,Residential,2793,-0.1998868,-78.4826542,2,-85.74,CONNECTED
+213,Avenida Francisco de Orellana,Avenida la Coruña,Residential,2793,-0.1998216,-78.4827379,2,-85.45,CONNECTED
+214,Avenida Francisco de Orellana,Avenida la Coruña,Residential,2795,-0.2000021,-78.482679,2,-86.05,CONNECTED
+215,Avenida Francisco de Orellana,Avenida la Coruña,Residential,2795,-0.1999401,-78.4827717,2,-85.78,CONNECTED
+216,Avenida Francisco de Orellana,La Colina,Residential,2792,-0.1996467,-78.4831652,2,-84.48,CONNECTED
+217,Avenida Francisco de Orellana,La Colina,Residential,2793,-0.1995458,-78.4831062,2,-84.19,CONNECTED
+218,Avenida Francisco de Orellana,Reina Victoria,Park/Periphery,2779,-0.1979291,-78.4874623,2,-104.13,CONNECTED
+219,Avenida Francisco de Orellana,San Ignacio,Park/Periphery,2818,-0.2013956,-78.4815769,2,-126.5,CONNECTED
+220,Avenida Francisco de Orellana,San Javier,Residential,2792,-0.1991901,-78.4837776,2,-82.38,CONNECTED
+221,Avenida Francisco de Orellana,San Javier,Residential,2792,-0.1991042,-78.4836989,2,-82.08,CONNECTED
+222,Avenida Francisco de Orellana,Whymper,Residential,2807,-0.200684,-78.4819208,2,-102.44,CONNECTED
+223,Avenida Francisco de Orellana,Yánez Pinzón,Residential,2778,-0.1983164,-78.4856039,2,-80.08,CONNECTED
+224,Avenida Francisco de Orellana,Yánez Pinzón,Residential,2779,-0.1984169,-78.4856451,2,-80.59,CONNECTED
+225,Avenida Gaspar de Villarroel,Avenida General Eloy Alfaro,Residential,2832,-0.1725803,-78.4712395,1,-104.59,CONNECTED
+226,Avenida Gaspar de Villarroel,Avenida General Eloy Alfaro,Residential,2833,-0.1713132,-78.4707056,1,-105.45,CONNECTED
+227,Avenida Gaspar de Villarroel,Avenida General Eloy Alfaro,Residential,2834,-0.1727096,-78.4711608,1,-105.09,CONNECTED
+228,Avenida Gaspar de Villarroel,Avenida General Eloy Alfaro,Residential,2834,-0.171492,-78.4706453,1,-105.73,CONNECTED
+229,Avenida Gaspar de Villarroel,Avenida París,Residential,2780,-0.1705177,-78.477992,1,-73.96,CONNECTED
+230,Avenida Gaspar de Villarroel,Avenida Río Amazonas,Residential,2781,-0.1693302,-78.4844578,1,-94.82,CONNECTED
+231,Avenida Gaspar de Villarroel,Avenida Río Amazonas,Dense Urban,2782,-0.1693514,-78.4843523,1,-130.45,CONNECTED
+232,Avenida Gaspar de Villarroel,Avenida Río Amazonas,Residential,2782,-0.1692501,-78.4843337,1,-94.65,CONNECTED
+233,Avenida Gaspar de Villarroel,Avenida Río Amazonas,Residential,2782,-0.1692295,-78.4844419,1,-94.83,CONNECTED
+234,Avenida Gaspar de Villarroel,Avenida Tomas de Berlanga,Residential,2783,-0.1689559,-78.4863971,1,-97.74,CONNECTED
+235,Avenida Gaspar de Villarroel,Avenida Tomas de Berlanga,Residential,2783,-0.1688492,-78.4863572,1,-97.71,CONNECTED
+236,Avenida Gaspar de Villarroel,Avenida de los Shyris,Residential,2779,-0.1702483,-78.4797923,1,-83.34,CONNECTED
+237,Avenida Gaspar de Villarroel,Avenida de los Shyris,Residential,2780,-0.1702303,-78.4798826,1,-83.68,CONNECTED
+238,Avenida Gaspar de Villarroel,Avenida de los Shyris,Residential,2780,-0.1701563,-78.4797739,1,-83.34,CONNECTED
+239,Avenida Gaspar de Villarroel,Avenida de los Shyris,Residential,2780,-0.170138,-78.4798668,1,-83.69,CONNECTED
+240,Avenida Gaspar de Villarroel,Cochapata,Residential,2828,-0.1716244,-78.4715538,1,-102.72,CONNECTED
+241,Avenida Gaspar de Villarroel,El Sol,Residential,2777,-0.1705477,-78.4783161,1,-76.08,CONNECTED
+242,Avenida Gaspar de Villarroel,El Sol,Residential,2777,-0.1704553,-78.4783001,1,-76.1,CONNECTED
+243,Avenida Gaspar de Villarroel,Gregorio Munga,Residential,2791,-0.1712244,-78.4749878,1,-67.75,CONNECTED
+244,Avenida Gaspar de Villarroel,Isla Isabela,Residential,2782,-0.1694974,-78.4836245,1,-93.35,CONNECTED
+245,Avenida Gaspar de Villarroel,Isla Isabela,Residential,2782,-0.1693992,-78.4836089,1,-93.36,CONNECTED
+246,Avenida Gaspar de Villarroel,Isla San Cristobal,Residential,2778,-0.1695443,-78.4828739,1,-91.92,CONNECTED
+247,Avenida Gaspar de Villarroel,Isla Seymour,Residential,2786,-0.1699991,-78.4805701,1,-86.1,CONNECTED
+248,Avenida Gaspar de Villarroel,Isla Seymour,Residential,2787,-0.1700898,-78.4805859,1,-86.09,CONNECTED
+249,Avenida Gaspar de Villarroel,Japón,Residential,2778,-0.1696826,-78.4826236,1,-91.35,CONNECTED
+250,Avenida Gaspar de Villarroel,Jorge Drom,Dense Urban,2784,-0.1691841,-78.4851866,1,-132.05,CONNECTED
+251,Avenida Gaspar de Villarroel,Jorge Drom,Dense Urban,2784,-0.1690907,-78.4851826,1,-132.08,CONNECTED
+252,Avenida Gaspar de Villarroel,José Abascal,Residential,2807,-0.1714664,-78.4737834,1,-90.57,CONNECTED
+253,Avenida Gaspar de Villarroel,José Abascal,Residential,2809,-0.1713792,-78.4737659,1,-91,CONNECTED
+254,Avenida Gaspar de Villarroel,Manuel Guzmán,Residential,2823,-0.1717057,-78.4725402,1,-98.96,CONNECTED
+255,Avenida Gaspar de Villarroel,Mariano Jimbo,Residential,2781,-0.1690498,-78.4858561,1,-96.99,CONNECTED
+256,Avenida Gaspar de Villarroel,Mariano Jimbo,Dense Urban,2781,-0.1689616,-78.4858416,1,-133.24,CONNECTED
+257,Avenida Gaspar de Villarroel,Unnamed Road,Residential,2777,-0.1704108,-78.4785198,1,-77.45,CONNECTED
+258,Avenida Gaspar de Villarroel,Unnamed Road,Residential,2777,-0.1695965,-78.4826094,1,-91.36,CONNECTED
+259,Avenida General Eloy Alfaro,Avenida Portugal,Residential,2817,-0.1818512,-78.4754588,1,-113.12,CONNECTED
+260,Avenida General Eloy Alfaro,Avenida Portugal,Residential,2817,-0.1818128,-78.4755536,1,-113.06,CONNECTED
+261,Avenida General Eloy Alfaro,Avenida Portugal,Residential,2817,-0.1817787,-78.475441,1,-113.02,CONNECTED
+262,Avenida General Eloy Alfaro,Avenida Portugal,Residential,2817,-0.1817405,-78.475533,1,-112.97,CONNECTED
+263,Avenida General Eloy Alfaro,Avenida Río Coca,Residential,2823,-0.1647191,-78.4681005,1,-113.02,CONNECTED
+264,Avenida General Eloy Alfaro,Avenida Río Coca,Park/Periphery,2825,-0.1645815,-78.4679121,1,-134.76,CONNECTED
+265,Avenida General Eloy Alfaro,Avenida de la República,Residential,2766,-0.1909512,-78.4861231,2,-106.5,CONNECTED
+266,Avenida General Eloy Alfaro,Avenida de la República,Residential,2768,-0.1910142,-78.4862395,2,-88.01,CONNECTED
+267,Avenida General Eloy Alfaro,Avenida de la República,Residential,2770,-0.1911186,-78.4861948,2,-87.7,CONNECTED
+268,Avenida General Eloy Alfaro,Avenida de la República,Residential,2770,-0.1910568,-78.486077,2,-87.73,CONNECTED
+269,Avenida General Eloy Alfaro,Avenida de los Granados,Residential,2825,-0.1659414,-78.4684645,1,-111.81,CONNECTED
+270,Avenida General Eloy Alfaro,Avenida de los Granados,Residential,2825,-0.1659009,-78.4682968,1,-112.06,CONNECTED
+271,Avenida General Eloy Alfaro,Avenida de los Shyris,Residential,2772,-0.1889636,-78.4827256,2,-92.1,CONNECTED
+272,Avenida General Eloy Alfaro,Avenida de los Shyris,Residential,2772,-0.1888666,-78.4827865,2,-92.26,CONNECTED
+273,Avenida General Eloy Alfaro,Avenida de los Shyris,Residential,2773,-0.1888911,-78.4826096,2,-92.29,CONNECTED
+274,Avenida General Eloy Alfaro,Avenida de los Shyris,Residential,2774,-0.1887932,-78.4826719,2,-92.45,CONNECTED
+275,Avenida General Eloy Alfaro,Bélgica,Residential,2776,-0.1885146,-78.4820129,2,-93.27,CONNECTED
+276,Avenida General Eloy Alfaro,Bélgica,Residential,2776,-0.1884215,-78.4820738,2,-93.4,CONNECTED
+277,Avenida General Eloy Alfaro,Camilo Gallegos Dominguez,Residential,2822,-0.1667558,-78.4685862,1,-110.64,CONNECTED
+278,Avenida General Eloy Alfaro,Carlos Tobar,Residential,2775,-0.1902554,-78.4850036,2,-89.02,CONNECTED
+279,Avenida General Eloy Alfaro,Carlos Tobar,Residential,2776,-0.1903689,-78.4849305,2,-88.71,CONNECTED
+280,Avenida General Eloy Alfaro,Catalina Aldaz,Residential,2801,-0.1847537,-78.47711,1,-101.63,CONNECTED
+281,Avenida General Eloy Alfaro,Checoslovaquia,Residential,2793,-0.1858615,-78.478027,2,-99.28,CONNECTED
+282,Avenida General Eloy Alfaro,Coremo,Residential,2837,-0.175506,-78.4723383,1,-106.92,CONNECTED
+283,Avenida General Eloy Alfaro,Coremo,Residential,2843,-0.1757589,-78.4724517,1,-107.71,CONNECTED
+284,Avenida General Eloy Alfaro,Eduardo Salazar Gomez,Residential,2818,-0.1797006,-78.4742415,1,-110.5,CONNECTED
+285,Avenida General Eloy Alfaro,Eduardo Salazar Gomez,Residential,2819,-0.1798512,-78.4741891,1,-110.88,CONNECTED
+286,Avenida General Eloy Alfaro,El Batán,Residential,2795,-0.185565,-78.4777342,2,-99.76,CONNECTED
+287,Avenida General Eloy Alfaro,Fernando Ayarza,Residential,2794,-0.1857475,-78.4778972,2,-99.48,CONNECTED
+288,Avenida General Eloy Alfaro,Fernando Ayarza,Residential,2795,-0.1856644,-78.4778153,2,-99.61,CONNECTED
+289,Avenida General Eloy Alfaro,Fernando Ayarza,Residential,2796,-0.1858215,-78.4778174,2,-99.45,CONNECTED
+290,Avenida General Eloy Alfaro,Fernando Ayarza,Residential,2796,-0.1857278,-78.4777451,2,-99.59,CONNECTED
+291,Avenida General Eloy Alfaro,Francisco Andrade Marin,Residential,2771,-0.189911,-78.4844548,2,-89.72,CONNECTED
+292,Avenida General Eloy Alfaro,Francisco Andrade Marin,Residential,2773,-0.1900176,-78.4843859,2,-89.46,CONNECTED
+293,Avenida General Eloy Alfaro,Joel Polanco,Residential,2818,-0.1652645,-78.4682895,1,-111.7,CONNECTED
+294,Avenida General Eloy Alfaro,Jose Correa,Residential,2826,-0.1773222,-78.4735496,1,-107.84,CONNECTED
+295,Avenida General Eloy Alfaro,José Puerta,Residential,2834,-0.1739494,-78.4717938,1,-105.06,CONNECTED
+296,Avenida General Eloy Alfaro,José Queri,Residential,2833,-0.1684866,-78.4694552,1,-109.17,CONNECTED
+297,Avenida General Eloy Alfaro,José Queri,Residential,2835,-0.1685673,-78.469347,1,-109.5,CONNECTED
+298,Avenida General Eloy Alfaro,Juan Severino,Residential,2771,-0.1896625,-78.4838202,2,-90.3,CONNECTED
+299,Avenida General Eloy Alfaro,Juan Severino,Residential,2772,-0.1895519,-78.4838863,2,-90.55,CONNECTED
+300,Avenida General Eloy Alfaro,Luis Armenadrez,Residential,2821,-0.1808471,-78.4750228,1,-112.38,CONNECTED
+301,Avenida General Eloy Alfaro,Manuel Guzmán,Residential,2834,-0.1747223,-78.4721186,1,-105.64,CONNECTED
+302,Avenida General Eloy Alfaro,Mariana de Jesús,Residential,2775,-0.1916035,-78.4871069,2,-87.76,CONNECTED
+303,Avenida General Eloy Alfaro,Mariana de Jesús,Residential,2775,-0.1914901,-78.4871647,2,-88.1,CONNECTED
+304,Avenida General Eloy Alfaro,N40C,Residential,2829,-0.1693591,-78.4696963,1,-107.79,CONNECTED
+305,Avenida General Eloy Alfaro,N40C,Residential,2831,-0.1695598,-78.469783,1,-107.72,CONNECTED
+306,Avenida General Eloy Alfaro,Pablo Suarez,Residential,2773,-0.1893168,-78.4832795,2,-91.18,CONNECTED
+307,Avenida General Eloy Alfaro,Portete,Residential,2840,-0.1760546,-78.4727783,1,-107.57,CONNECTED
+308,Avenida General Eloy Alfaro,San Salvador,Park/Periphery,2775,-0.1918286,-78.4875678,2,-108.34,CONNECTED
+309,Avenida General Eloy Alfaro,Suiza,Residential,2775,-0.1876889,-78.4809322,2,-95.22,CONNECTED
+310,Avenida General Eloy Alfaro,Unnamed Road,Residential,2795,-0.1853423,-78.4775582,2,-100.08,CONNECTED
+311,Avenida González Suárez,E14A,Residential,2816,-0.1876233,-78.476753,2,-113.69,CONNECTED
+312,Avenida González Suárez,Ernesto Noboa Caamaño,Park/Periphery,2836,-0.1983494,-78.4793517,2,-126.44,CONNECTED
+313,Avenida González Suárez,Gonnessiat,Residential,2852,-0.1972445,-78.4790002,2,-107.04,CONNECTED
+314,Avenida González Suárez,Gonnessiat,Residential,2853,-0.1972753,-78.4789058,2,-107.35,CONNECTED
+315,Avenida González Suárez,Gonzalo Rubio Orbe,Residential,2822,-0.1932313,-78.4754792,2,-111.7,CONNECTED
+316,Avenida González Suárez,Gonzalo Rubio Orbe,Residential,2832,-0.1929798,-78.475657,2,-112.55,CONNECTED
+317,Avenida González Suárez,Jacinto Bejarano,Residential,2855,-0.1946934,-78.4777291,2,-109.89,CONNECTED
+318,Avenida González Suárez,Jacinto Bejarano,Residential,2856,-0.1947437,-78.4776264,2,-110.15,CONNECTED
+319,Avenida González Suárez,Jiménez de la Espada,Residential,2808,-0.1914952,-78.4779227,2,-107.27,CONNECTED
+320,Avenida González Suárez,José Bosmediano,Residential,2816,-0.1880491,-78.4768465,2,-113.21,CONNECTED
+321,Avenida González Suárez,Juan Boussingault,Residential,2797,-0.19107,-78.4781005,2,-93.48,CONNECTED
+322,Avenida González Suárez,Juan Boussingault,Residential,2800,-0.1911868,-78.4780053,2,-105.79,CONNECTED
+323,Avenida González Suárez,Juan Boussingault,Residential,2801,-0.1912177,-78.4780761,2,-105.91,CONNECTED
+324,Avenida González Suárez,Plaza Sir Winston Churchill,Residential,2844,-0.1933062,-78.4763634,2,-112.26,CONNECTED
+325,Avenida González Suárez,Plaza Sir Winston Churchill,Residential,2846,-0.1933508,-78.4768757,2,-111.53,CONNECTED
+326,Avenida González Suárez,Plaza Sir Winston Churchill,Residential,2849,-0.1934976,-78.476736,2,-111.9,CONNECTED
+327,Avenida González Suárez,Plaza Sir Winston Churchill,Residential,2853,-0.1934436,-78.4764375,2,-112.68,CONNECTED
+328,Avenida González Suárez,San Ignacio,Park/Periphery,2839,-0.2002419,-78.4798655,2,-128.61,CONNECTED
+329,Avenida González Suárez,San Ignacio,Park/Periphery,2839,-0.2002097,-78.4799687,2,-128.38,CONNECTED
+330,Avenida González Suárez,Unnamed Road,Residential,2810,-0.1921676,-78.4773899,2,-107.8,CONNECTED
+331,Avenida González Suárez,Unnamed Road,Residential,2811,-0.1922191,-78.4775634,2,-107.64,CONNECTED
+332,Avenida González Suárez,Unnamed Road,Residential,2812,-0.1922208,-78.4773407,2,-108.15,CONNECTED
+333,Avenida González Suárez,Unnamed Road,Residential,2816,-0.1923815,-78.4773886,2,-108.5,CONNECTED
+334,Avenida Juan José Villalengua,Avenida Río Amazonas,Residential,2780,-0.1729912,-78.4850202,1,-95.81,CONNECTED
+335,Avenida Juan José Villalengua,Avenida Río Amazonas,Residential,2781,-0.172972,-78.4851262,1,-95.96,CONNECTED
+336,Avenida Juan José Villalengua,Iñaquito,Residential,2786,-0.1726335,-78.4869969,1,-98.42,CONNECTED
+337,Avenida Juan José Villalengua,Jorge Drom,Residential,2782,-0.1728507,-78.4857966,1,-96.89,CONNECTED
+338,Avenida Juan José Villalengua,Jose Maria Ayora,Residential,2779,-0.173107,-78.4843803,1,-94.87,CONNECTED
+339,Avenida Juan José Villalengua,Nuñez de Vela,Residential,2786,-0.172742,-78.4863973,1,-97.67,CONNECTED
+340,Avenida Juan de Ascaray,Avenida Río Amazonas,Residential,2785,-0.1643281,-78.4834655,1,-96.98,CONNECTED
+341,Avenida Juan de Ascaray,Avenida Río Amazonas,Residential,2785,-0.1642478,-78.4834522,1,-97.05,CONNECTED
+342,Avenida Juan de Ascaray,Avenida Río Amazonas,Residential,2786,-0.1642368,-78.48357,1,-97.18,CONNECTED
+343,Avenida Juan de Ascaray,Avenida Río Amazonas,Residential,2787,-0.164324,-78.4835853,1,-97.11,CONNECTED
+344,Avenida Juan de Ascaray,Isla Tortuga,Residential,2780,-0.1652061,-78.4846236,1,-97.49,CONNECTED
+345,Avenida Juan de Ascaray,Jorge Drom,Residential,2787,-0.1657074,-78.4850932,1,-97.66,CONNECTED
+346,Avenida Juan de Ascaray,Jorge Drom,Residential,2787,-0.1656404,-78.4851623,1,-97.78,CONNECTED
+347,Avenida Juan de Ascaray,Mariano Jimbo,Residential,2784,-0.1663787,-78.4857386,1,-97.99,CONNECTED
+348,Avenida Juan de Ascaray,Mariano Jimbo,Residential,2784,-0.1663026,-78.4858167,1,-98.13,CONNECTED
+349,Avenida Manuel Samaniego,Juan Leon Mera,Park/Periphery,2489,-0.1972448,-78.4483286,4,-125.39,CONNECTED
+350,Avenida Moreno Bellido,Mariana de Jesús,Park/Periphery,2777,-0.1909503,-78.4874254,2,-110.03,CONNECTED
+351,Avenida Naciones Unidas,Avenida República de El Salvador,Residential,2782,-0.1771204,-78.4795104,1,-92.17,CONNECTED
+352,Avenida Naciones Unidas,Avenida República de El Salvador,Residential,2782,-0.1769066,-78.4793736,1,-91.66,CONNECTED
+353,Avenida Naciones Unidas,Avenida República de El Salvador,Residential,2783,-0.1771391,-78.4794163,1,-92.12,CONNECTED
+354,Avenida Naciones Unidas,Avenida Río Amazonas,Residential,2785,-0.1759303,-78.4856623,1,-98.1,CONNECTED
+355,Avenida Naciones Unidas,Avenida Río Amazonas,Residential,2786,-0.1756975,-78.4856221,1,-97.92,CONNECTED
+356,Avenida Naciones Unidas,Avenida Río Amazonas,Residential,2787,-0.1759487,-78.4855534,1,-97.99,CONNECTED
+357,Avenida Naciones Unidas,Avenida Río Amazonas,Residential,2787,-0.1757178,-78.4855089,1,-97.8,CONNECTED
+358,Avenida Naciones Unidas,Avenida de los Shyris,Residential,2779,-0.1768358,-78.4809463,1,-93.26,CONNECTED
+359,Avenida Naciones Unidas,Avenida de los Shyris,Residential,2779,-0.1768109,-78.4810717,1,-93.37,CONNECTED
+360,Avenida Naciones Unidas,Avenida de los Shyris,Residential,2779,-0.1766164,-78.4809056,1,-92.9,CONNECTED
+361,Avenida Naciones Unidas,Avenida de los Shyris,Residential,2779,-0.1765959,-78.481029,1,-93.02,CONNECTED
+362,Avenida Naciones Unidas,Iñaquito,Residential,2789,-0.1753246,-78.4875027,1,-99.85,CONNECTED
+363,Avenida Naciones Unidas,Iñaquito,Residential,2792,-0.1755664,-78.4875512,1,-100,CONNECTED
+364,Avenida Naciones Unidas,Japón,Park/Periphery,2782,-0.1762828,-78.4837825,1,-117.15,CONNECTED
+365,Avenida Naciones Unidas,Japón,Park/Periphery,2788,-0.1760575,-78.483787,1,-116.95,CONNECTED
+366,Avenida Naciones Unidas,Nuñez de Vela,Residential,2781,-0.175473,-78.4867605,1,-99.1,CONNECTED
+367,Avenida Naciones Unidas,Nuñez de Vela,Residential,2782,-0.1757205,-78.4868166,1,-99.28,CONNECTED
+368,Avenida Ninahualpa,Avenida de los Conquistadores,Park/Periphery,2647,-0.201514,-78.4750466,3,-124.92,CONNECTED
+369,Avenida Ninahualpa,Juan de Toro,Park/Periphery,2644,-0.1996149,-78.4746922,3,-118.56,CONNECTED
+370,Avenida París,Avenida Río Coca,Dense Urban,2788,-0.1629647,-78.4776672,1,-130.07,CONNECTED
+371,Avenida París,Avenida Tomas de Berlanga,Dense Urban,2785,-0.1653046,-78.4780662,1,-124.97,CONNECTED
+372,Avenida París,Avenida Tomas de Berlanga,Dense Urban,2785,-0.1652382,-78.4780549,1,-125.13,CONNECTED
+373,Avenida París,Avenida de los Granados,Residential,2785,-0.1691533,-78.4781808,1,-79.07,CONNECTED
+374,Avenida París,Eiffel,Dense Urban,2781,-0.1669714,-78.4783504,1,-120.5,CONNECTED
+375,Avenida París,Emilio Sola,Dense Urban,2782,-0.1646664,-78.4779574,1,-126.49,CONNECTED
+376,Avenida París,Emilio Sola,Dense Urban,2783,-0.1647709,-78.4779752,1,-126.25,CONNECTED
+377,Avenida París,Isla Floreana,Residential,2781,-0.1681402,-78.4784755,1,-83.2,CONNECTED
+378,Avenida París,Isla Floreana,Residential,2781,-0.1680561,-78.4784857,1,-83.47,CONNECTED
+379,Avenida París,Louvre Rousseau,Dense Urban,2785,-0.1637134,-78.4777949,1,-128.57,CONNECTED
+380,Avenida París,Luovre Ruosseau,Dense Urban,2786,-0.1635317,-78.4777633,1,-128.95,CONNECTED
+381,Avenida París,Marsella,Dense Urban,2779,-0.1664077,-78.4782543,1,-122.09,CONNECTED
+382,Avenida París,Pasteur,Dense Urban,2780,-0.165853,-78.4781597,1,-123.58,CONNECTED
+383,Avenida París,Pasteur,Dense Urban,2780,-0.1657671,-78.478145,1,-123.8,CONNECTED
+384,Avenida París,Sena,Residential,2778,-0.1674945,-78.4784569,1,-85.01,CONNECTED
+385,Avenida París,Sorbona,Dense Urban,2779,-0.1662283,-78.4782237,1,-122.58,CONNECTED
+386,Avenida París,Unnamed Road,Residential,2781,-0.1697963,-78.4780005,1,-76.02,CONNECTED
+387,Avenida París,Victor Hugo,Dense Urban,2784,-0.1642976,-78.4778957,1,-127.32,CONNECTED
+388,Avenida París,Victor Hugo,Dense Urban,2785,-0.1641265,-78.4778607,1,-127.69,CONNECTED
+389,Avenida Paul Rivet,José Orton,Dense Urban,2783,-0.196561,-78.4824745,2,-105.84,CONNECTED
+390,Avenida Paul Rivet,José Orton,Dense Urban,2784,-0.1966465,-78.482438,2,-106.45,CONNECTED
+391,Avenida Paul Rivet,Unnamed Road,Dense Urban,2782,-0.1966334,-78.4826305,2,-104.88,CONNECTED
+392,Avenida Paul Rivet,Unnamed Road,Dense Urban,2782,-0.1965547,-78.4826042,2,-104.75,CONNECTED
+393,Avenida Paul Rivet,Unnamed Road,Residential,2805,-0.1951372,-78.4807794,2,-95.83,CONNECTED
+394,Avenida Paul Rivet,Whymper,Dense Urban,2797,-0.1956886,-78.4813172,2,-112.79,CONNECTED
+395,Avenida Paul Rivet,Whymper,Dense Urban,2797,-0.1956232,-78.4812345,2,-113.27,CONNECTED
+396,Avenida Portugal,Avenida República de El Salvador,Residential,2782,-0.1817404,-78.4802095,1,-99.08,CONNECTED
+397,Avenida Portugal,Avenida República de El Salvador,Residential,2782,-0.1817247,-78.480295,1,-99.1,CONNECTED
+398,Avenida Portugal,Avenida República de El Salvador,Residential,2783,-0.1818299,-78.4802248,1,-99.19,CONNECTED
+399,Avenida Portugal,Avenida República de El Salvador,Residential,2783,-0.1818145,-78.4803097,1,-99.21,CONNECTED
+400,Avenida Portugal,Avenida de los Shyris,Residential,2778,-0.1815454,-78.4817907,1,-99.65,CONNECTED
+401,Avenida Portugal,Avenida de los Shyris,Residential,2778,-0.1814514,-78.4817742,1,-99.54,CONNECTED
+402,Avenida Portugal,Avenida de los Shyris,Residential,2779,-0.1815156,-78.4819546,1,-99.71,CONNECTED
+403,Avenida Portugal,Avenida de los Shyris,Residential,2780,-0.1814213,-78.4819371,1,-99.6,CONNECTED
+404,Avenida Portugal,Catalina Aldaz,Residential,2795,-0.1820584,-78.4771445,1,-98.63,CONNECTED
+405,Avenida Portugal,Francisco Casanova,Residential,2808,-0.1818871,-78.4764164,1,-111.58,CONNECTED
+406,Avenida Portugal,Juan de Dios Martinez,Residential,2822,-0.1822326,-78.4749908,1,-114.31,CONNECTED
+407,Avenida Portugal,Luxemburgo,Residential,2777,-0.18167,-78.4811049,1,-99.42,CONNECTED
+408,Avenida Portugal,Luxemburgo,Residential,2777,-0.1815786,-78.4810858,1,-99.31,CONNECTED
+409,Avenida Portugal,Unnamed Road,Residential,2813,-0.1817986,-78.4760752,1,-112.4,CONNECTED
+410,Avenida República de El Salvador,Avenida de los Shyris,Residential,2773,-0.1856333,-78.4826672,2,-97.48,CONNECTED
+411,Avenida República de El Salvador,Avenida de los Shyris,Residential,2774,-0.1857272,-78.4826849,2,-97.35,CONNECTED
+412,Avenida República de El Salvador,Avenida de los Shyris,Residential,2776,-0.185662,-78.4824903,2,-97.48,CONNECTED
+413,Avenida República de El Salvador,Avenida de los Shyris,Residential,2777,-0.1857598,-78.482504,2,-97.35,CONNECTED
+414,Avenida República de El Salvador,Irlanda,Residential,2775,-0.183785,-78.4805854,2,-100.26,CONNECTED
+415,Avenida República de El Salvador,Moscú,Residential,2776,-0.1843802,-78.4806952,2,-99.57,CONNECTED
+416,Avenida República de El Salvador,República de El Salvador,Residential,2777,-0.1843186,-78.4807812,2,-99.61,CONNECTED
+417,Avenida República de El Salvador,Suecia,Residential,2791,-0.1797222,-78.4799611,1,-96.48,CONNECTED
+418,Avenida República de El Salvador,Suecia,Residential,2797,-0.1797401,-78.4798647,1,-96.45,CONNECTED
+419,Avenida República de El Salvador,Suiza,Residential,2777,-0.1858372,-78.4820739,2,-97.35,CONNECTED
+420,Avenida República de El Salvador,Suiza,Residential,2779,-0.1857254,-78.4821013,2,-97.49,CONNECTED
+421,Avenida Río Amazonas,Avenida Río Coca,Residential,2783,-0.1619611,-78.4830617,1,-98.92,CONNECTED
+422,Avenida Río Amazonas,Avenida Río Coca,Residential,2783,-0.1619419,-78.4831674,1,-99.02,CONNECTED
+423,Avenida Río Amazonas,Avenida de la República,Park/Periphery,2778,-0.1877927,-78.487643,2,-116.16,CONNECTED
+424,Avenida Río Amazonas,Avenida de la República,Park/Periphery,2779,-0.1876452,-78.4877071,2,-116.44,CONNECTED
+425,Avenida Río Amazonas,Avenida de la República,Park/Periphery,2779,-0.1875791,-78.4875948,2,-116.47,CONNECTED
+426,Avenida Río Amazonas,Avenida de la República,Park/Periphery,2780,-0.1874169,-78.4876638,2,-116.77,CONNECTED
+427,Avenida Río Amazonas,Azuay,Park/Periphery,2785,-0.1844357,-78.4870391,2,-120.66,CONNECTED
+428,Avenida Río Amazonas,Azuay,Park/Periphery,2787,-0.1844185,-78.4871557,2,-120.71,CONNECTED
+429,Avenida Río Amazonas,Corea,Residential,2788,-0.1774099,-78.4859251,1,-99.32,CONNECTED
+430,Avenida Río Amazonas,Guayas,Residential,2784,-0.1838744,-78.4869387,2,-99.92,CONNECTED
+431,Avenida Río Amazonas,Guayas,Residential,2785,-0.1838538,-78.4870564,2,-99.98,CONNECTED
+432,Avenida Río Amazonas,Inglaterra,Park/Periphery,2789,-0.1856595,-78.4873641,2,-119.17,CONNECTED
+433,Avenida Río Amazonas,Isla Baltra,Residential,2778,-0.1665377,-78.4839971,1,-95.7,CONNECTED
+434,Avenida Río Amazonas,Isla Floreana,Residential,2779,-0.1671288,-78.4839632,1,-95.22,CONNECTED
+435,Avenida Río Amazonas,Isla Tortuga,Residential,2785,-0.1656488,-78.4838191,1,-96.19,CONNECTED
+436,Avenida Río Amazonas,Iñaquito,Residential,2783,-0.1833269,-78.4868357,2,-100.49,CONNECTED
+437,Avenida Río Amazonas,Iñaquito,Residential,2783,-0.1833044,-78.4869603,2,-100.55,CONNECTED
+438,Avenida Río Amazonas,Japón,Park/Periphery,2783,-0.1785941,-78.4860065,1,-121.61,CONNECTED
+439,Avenida Río Amazonas,Jose Bolaños,Dense Urban,2780,-0.1680247,-78.4841229,1,-130.73,CONNECTED
+440,Avenida Río Amazonas,Jose Bolaños,Dense Urban,2780,-0.1680002,-78.484246,1,-130.97,CONNECTED
+441,Avenida Río Amazonas,José Arizaga,Dense Urban,2784,-0.1704193,-78.4846598,1,-130.77,CONNECTED
+442,Avenida Río Amazonas,Juan Pablo Sanz,Residential,2793,-0.1805602,-78.4864769,1,-101.9,CONNECTED
+443,Avenida Río Amazonas,Luis Barberis,Residential,2788,-0.1606944,-78.4828242,1,-99.98,CONNECTED
+444,Avenida Río Amazonas,Nuñez de Vela,Residential,2784,-0.182772,-78.4867338,2,-101.05,CONNECTED
+445,Avenida Río Amazonas,Nuñez de Vela,Residential,2787,-0.182753,-78.4868628,2,-101.1,CONNECTED
+446,Avenida Río Amazonas,Rio Cofanes,Residential,2782,-0.1627953,-78.4832034,1,-98.22,CONNECTED
+447,Avenida Río Amazonas,Rio Cofanes,Residential,2783,-0.1627753,-78.4833136,1,-98.33,CONNECTED
+448,Avenida Río Amazonas,Rumipamba,Park/Periphery,2779,-0.1850003,-78.4871365,2,-119.96,CONNECTED
+449,Avenida Río Amazonas,Rumipamba,Park/Periphery,2780,-0.1849785,-78.4872465,2,-120.03,CONNECTED
+450,Avenida Río Amazonas,Unión Nacional de Periodistas,Residential,2778,-0.174678,-78.4853289,1,-96.98,CONNECTED
+451,Avenida Río Amazonas,Unión Nacional de Periodistas,Residential,2778,-0.1746477,-78.4854218,1,-97.09,CONNECTED
+452,Avenida Río Amazonas,Vicente Cárdenas,Residential,2785,-0.1699616,-78.4844706,1,-94.68,CONNECTED
+453,Avenida Río Coca,Avenida de los Shyris,Residential,2785,-0.1628162,-78.4784665,1,-94.87,CONNECTED
+454,Avenida Río Coca,Avenida de los Shyris,Residential,2786,-0.1627994,-78.4785647,1,-94.94,CONNECTED
+455,Avenida Río Coca,De Los Colimes,Residential,2804,-0.163958,-78.4726483,1,-106.11,CONNECTED
+456,Avenida Río Coca,De las Hiedras,Residential,2793,-0.1636573,-78.4742724,1,-93.28,CONNECTED
+457,Avenida Río Coca,De los Laureles,Residential,2814,-0.1642553,-78.4703995,1,-109.8,CONNECTED
+458,Avenida Río Coca,De los Laureles,Residential,2815,-0.1643648,-78.4704197,1,-109.8,CONNECTED
+459,Avenida Río Coca,De los Rosales,Park/Periphery,2806,-0.1641358,-78.4716687,1,-128.06,CONNECTED
+460,Avenida Río Coca,De los Rosales,Park/Periphery,2806,-0.1640455,-78.471644,1,-128.22,CONNECTED
+461,Avenida Río Coca,Isla Española,Residential,2784,-0.1618429,-78.4837864,1,-99.57,CONNECTED
+462,Avenida Río Coca,Isla Fernandina,Residential,2784,-0.1624366,-78.4804351,1,-96.52,CONNECTED
+463,Avenida Río Coca,Isla Genovesa,Residential,2789,-0.162332,-78.4810127,1,-97.04,CONNECTED
+464,Avenida Río Coca,Isla Isabela,Residential,2786,-0.162091,-78.4823318,1,-98.25,CONNECTED
+465,Avenida Río Coca,Isla Pinzon,Dense Urban,2787,-0.1632009,-78.4763222,1,-129.3,CONNECTED
+466,Avenida Río Coca,Isla Pinzon,Dense Urban,2787,-0.1631848,-78.4764035,1,-129.34,CONNECTED
+467,Avenida Río Coca,Isla San Cristobal,Residential,2786,-0.1622282,-78.481586,1,-97.56,CONNECTED
+468,Avenida Río Coca,Isla Santa Fe,Residential,2787,-0.1625522,-78.4798393,1,-95.99,CONNECTED
+469,Avenida Río Coca,Isla Santiago,Residential,2782,-0.1617382,-78.4843737,1,-100.1,CONNECTED
+470,Avenida Río Coca,Isla Seymour,Residential,2782,-0.1626678,-78.4792664,1,-95.5,CONNECTED
+471,Avenida Río Coca,Las Hiedras,Residential,2793,-0.1635783,-78.474161,1,-93.47,CONNECTED
+472,Avenida Río Coca,Las Hiedras,Residential,2793,-0.1635668,-78.4742275,1,-93.46,CONNECTED
+473,Avenida Río Coca,Segovia,Residential,2788,-0.1616304,-78.4849555,1,-100.62,CONNECTED
+474,Avenida Río Coca,Unnamed Road,Residential,2788,-0.1635866,-78.4747292,1,-93.22,CONNECTED
+475,Avenida Tomas de Berlanga,Avenida de los Shyris,Dense Urban,2784,-0.1651445,-78.4789012,1,-126.19,CONNECTED
+476,Avenida Tomas de Berlanga,Avenida de los Shyris,Dense Urban,2784,-0.1650768,-78.4788864,1,-126.33,CONNECTED
+477,Avenida Tomas de Berlanga,Avenida de los Shyris,Dense Urban,2785,-0.1651267,-78.4789925,1,-126.33,CONNECTED
+478,Avenida Tomas de Berlanga,Avenida de los Shyris,Dense Urban,2785,-0.1650566,-78.4789798,1,-126.48,CONNECTED
+479,Avenida Tomas de Berlanga,Isla Fernandina,Residential,2784,-0.164783,-78.4808346,1,-93.63,CONNECTED
+480,Avenida Tomas de Berlanga,Isla Genovesa,Residential,2777,-0.1646679,-78.481426,1,-94.43,CONNECTED
+481,Avenida Tomas de Berlanga,Isla Isabela,Residential,2783,-0.164422,-78.4827201,1,-96.11,CONNECTED
+482,Avenida Tomas de Berlanga,Isla Pinzon,Dense Urban,2783,-0.165525,-78.4768454,1,-123.57,CONNECTED
+483,Avenida Tomas de Berlanga,Isla Pinzon,Dense Urban,2784,-0.1655395,-78.4767708,1,-123.5,CONNECTED
+484,Avenida Tomas de Berlanga,Isla Pinzon,Dense Urban,2784,-0.1654661,-78.4768283,1,-123.74,CONNECTED
+485,Avenida Tomas de Berlanga,Isla Pinzon,Dense Urban,2785,-0.1654782,-78.4767526,1,-123.68,CONNECTED
+486,Avenida Tomas de Berlanga,Isla San Cristobal,Residential,2783,-0.1645527,-78.4820036,1,-95.2,CONNECTED
+487,Avenida Tomas de Berlanga,Isla Santa Fe,Residential,2781,-0.1648864,-78.4802484,1,-92.85,CONNECTED
+488,Avenida Tomas de Berlanga,Isla Seymour,Residential,2783,-0.1649735,-78.4796944,1,-92.14,CONNECTED
+489,Avenida Tomas de Berlanga,Iñaquito,Residential,2785,-0.1697471,-78.4861242,1,-97.2,CONNECTED
+490,Avenida Tomas de Berlanga,José Melo,Dense Urban,2785,-0.1655192,-78.4764972,1,-123.49,CONNECTED
+491,Avenida Tomas de Berlanga,Lara Manrique,Dense Urban,2781,-0.1655953,-78.476053,1,-123.23,CONNECTED
+492,Avenida de la Prensa,Fray José Falconí,Residential,2787,-0.1626872,-78.4871454,1,-101.59,CONNECTED
+493,Avenida de la Prensa,Fray José Falconí,Residential,2789,-0.1626831,-78.4873067,1,-101.72,CONNECTED
+494,Avenida de la Prensa,Mariano Echeverria,Residential,2783,-0.1656026,-78.4870931,1,-99.89,CONNECTED
+495,Avenida de la Prensa,Papallacta,Residential,2793,-0.1618633,-78.4872554,1,-102.18,CONNECTED
+496,Avenida de la República,La Pradera,Dense Urban,2774,-0.1967049,-78.4837754,2,-95.83,CONNECTED
+497,Avenida de la República,La Pradera,Residential,2781,-0.1928918,-78.4854336,2,-81.03,CONNECTED
+498,Avenida de la República,Martín Carrion,Residential,2777,-0.1935897,-78.4849871,2,-76.84,CONNECTED
+499,Avenida de la República,Martín Carrion,Residential,2779,-0.1936865,-78.4850862,2,-76.53,CONNECTED
+500,Avenida de las Palmeras,De los Viñedos,Residential,2800,-0.1625387,-78.4739852,1,-95.26,CONNECTED
+501,Avenida de las Palmeras,De los Viñedos,Residential,2800,-0.1625173,-78.474062,1,-95.26,CONNECTED
+502,Avenida de los Conquistadores,Juan Leon Mera,Park/Periphery,2474,-0.1974565,-78.450273,4,-118.13,CONNECTED
+503,Avenida de los Conquistadores,Unnamed Road,Park/Periphery,2476,-0.1966227,-78.4484212,4,-128.54,CONNECTED
+504,Avenida de los Conquistadores,Unnamed Road,Park/Periphery,2552,-0.1984472,-78.4655083,4,-124.48,CONNECTED
+505,Avenida de los Conquistadores,Unnamed Road,Park/Periphery,2554,-0.1984701,-78.4653908,4,-124.36,CONNECTED
+506,Avenida de los Conquistadores,Unnamed Road,Park/Periphery,2581,-0.1977119,-78.4721734,3,-11.68,CONNECTED
+507,Avenida de los Conquistadores,Unnamed Road,Park/Periphery,2607,-0.1987631,-78.4736859,3,-105.71,CONNECTED
+508,Avenida de los Granados,Bermejo,Residential,2848,-0.1633731,-78.4631881,5,-94.09,CONNECTED
+509,Avenida de los Granados,Charapa,Residential,2842,-0.1635979,-78.4637457,5,-99.37,CONNECTED
+510,Avenida de los Granados,De Los Colimes,Park/Periphery,2799,-0.1684777,-78.4731146,1,-104.18,CONNECTED
+511,Avenida de los Granados,De Los Colimes,Park/Periphery,2799,-0.1683631,-78.4731028,1,-104.5,CONNECTED
+512,Avenida de los Granados,De las Hiedras,Residential,2783,-0.1687291,-78.4749362,1,-78.26,CONNECTED
+513,Avenida de los Granados,De las Hiedras,Residential,2784,-0.1688164,-78.4749119,1,-77.91,CONNECTED
+514,Avenida de los Granados,E9,Residential,2784,-0.1691544,-78.4788667,1,-81.59,CONNECTED
+515,Avenida de los Granados,Isla Marchena,Park/Periphery,2803,-0.1680664,-78.4720944,1,-119.84,CONNECTED
+516,Avenida de los Granados,Isla Marchena,Park/Periphery,2804,-0.1681692,-78.472039,1,-120.06,CONNECTED
+517,Avenida de los Granados,José Queri,Residential,2813,-0.1674874,-78.4709257,1,-104.9,CONNECTED
+518,Avenida de los Granados,José Queri,Residential,2814,-0.1674184,-78.4710053,1,-105,CONNECTED
+519,Avenida de los Granados,N40J,Residential,2832,-0.1655226,-78.4666572,5,-113.48,CONNECTED
+520,Avenida de los Granados,Redondel del Ciclista,Residential,2848,-0.1632502,-78.4629127,5,-91.92,CONNECTED
+521,Avenida de los Granados,Redondel del Ciclista,Residential,2852,-0.1630842,-78.4630721,5,-90.56,CONNECTED
+522,Avenida de los Granados,Shuara,Park/Periphery,2836,-0.1639453,-78.464427,5,-124.04,CONNECTED
+523,Avenida de los Granados,Unnamed Road,Residential,2819,-0.1668894,-78.4702521,1,-107.64,CONNECTED
+524,Avenida de los Granados,Unnamed Road,Residential,2820,-0.1661515,-78.4690331,1,-110.28,CONNECTED
+525,Avenida de los Granados,Unnamed Road,Residential,2822,-0.1668001,-78.4703355,1,-108,CONNECTED
+526,Avenida de los Shyris,Bélgica,Residential,2773,-0.1875898,-78.4830223,2,-94.48,CONNECTED
+527,Avenida de los Shyris,Bélgica,Residential,2774,-0.1876156,-78.4828748,2,-94.48,CONNECTED
+528,Avenida de los Shyris,Eiffel,Residential,2781,-0.1668199,-78.4791916,1,-87.92,CONNECTED
+529,Avenida de los Shyris,El Comercio,Residential,2779,-0.1755313,-78.48083,1,-91.2,CONNECTED
+530,Avenida de los Shyris,El Comercio,Residential,2780,-0.1755545,-78.4807198,1,-91.06,CONNECTED
+531,Avenida de los Shyris,El Espectador,Residential,2783,-0.1743192,-78.4806385,1,-89.04,CONNECTED
+532,Avenida de los Shyris,El Telégrafo,Residential,2777,-0.1729557,-78.4802651,1,-86.21,CONNECTED
+533,Avenida de los Shyris,El Telégrafo,Residential,2777,-0.172928,-78.4804029,1,-86.55,CONNECTED
+534,Avenida de los Shyris,El Universo,Residential,2780,-0.1713233,-78.4799795,1,-83.81,CONNECTED
+535,Avenida de los Shyris,El Universo,Residential,2781,-0.1713021,-78.4800893,1,-84.2,CONNECTED
+536,Avenida de los Shyris,El Zurriago,Residential,2782,-0.1747247,-78.4805746,1,-89.54,CONNECTED
+537,Avenida de los Shyris,Emilio Sola,Dense Urban,2780,-0.1645208,-78.4787828,1,-127.48,CONNECTED
+538,Avenida de los Shyris,Holanda,Residential,2767,-0.1835096,-78.4821031,2,-118.23,CONNECTED
+539,Avenida de los Shyris,Holanda,Residential,2767,-0.1834733,-78.4822802,2,-118.24,CONNECTED
+540,Avenida de los Shyris,Isla Floreana,Residential,2778,-0.1680071,-78.4793993,1,-85.73,CONNECTED
+541,Avenida de los Shyris,Isla Floreana,Residential,2778,-0.1679838,-78.4795133,1,-86.04,CONNECTED
+542,Avenida de los Shyris,Isla Floreana,Residential,2778,-0.1679255,-78.479385,1,-85.87,CONNECTED
+543,Avenida de los Shyris,Isla Floreana,Residential,2778,-0.1679067,-78.4794986,1,-86.17,CONNECTED
+544,Avenida de los Shyris,La Tierra,Residential,2783,-0.1735438,-78.480368,1,-87.3,CONNECTED
+545,Avenida de los Shyris,Luovre Ruosseau,Residential,2786,-0.1634072,-78.4785771,1,-93.97,CONNECTED
+546,Avenida de los Shyris,Marsella,Dense Urban,2780,-0.166258,-78.4790933,1,-123.74,CONNECTED
+547,Avenida de los Shyris,Pasteur,Dense Urban,2778,-0.1656997,-78.4789956,1,-124.98,CONNECTED
+548,Avenida de los Shyris,Rusia,Residential,2777,-0.1868496,-78.4828967,2,-95.69,CONNECTED
+549,Avenida de los Shyris,Rusia,Residential,2782,-0.1868751,-78.4827151,2,-95.7,CONNECTED
+550,Avenida de los Shyris,Sena,Residential,2779,-0.1673555,-78.4792853,1,-86.91,CONNECTED
+551,Avenida de los Shyris,Suecia,Park/Periphery,2775,-0.1794243,-78.4815692,1,-118.32,CONNECTED
+552,Avenida de los Shyris,Suecia,Residential,2778,-0.179452,-78.4814184,1,-97.1,CONNECTED
+553,Avenida de los Shyris,Unnamed Road,Residential,2783,-0.1607081,-78.4782168,1,-97.8,CONNECTED
+554,Avenida de los Shyris,Unnamed Road,Residential,2785,-0.1610976,-78.478283,1,-97.31,CONNECTED
+555,Avenida de los Shyris,Victor Hugo,Dense Urban,2782,-0.1639919,-78.4786869,1,-128.53,CONNECTED
+556,Avenida del Muro,Juan Leon Mera,Park/Periphery,2486,-0.1971594,-78.4480439,4,-127.19,CONNECTED
+557,Avenida la Coruña,Barreto,Residential,2830,-0.1941696,-78.4787841,2,-105.91,CONNECTED
+558,Avenida la Coruña,Barreto,Residential,2830,-0.1940896,-78.4788126,2,-105.9,CONNECTED
+559,Avenida la Coruña,Barón Alexander von Humboldt,Residential,2820,-0.1951364,-78.4797918,2,-101.56,CONNECTED
+560,Avenida la Coruña,Barón Alexander von Humboldt,Residential,2828,-0.1947613,-78.4793892,2,-103.8,CONNECTED
+561,Avenida la Coruña,Belo Horizonte,Dense Urban,2797,-0.1983412,-78.4821332,2,-115.1,CONNECTED
+562,Avenida la Coruña,Belo Horizonte,Dense Urban,2797,-0.1982887,-78.4822327,2,-114.58,CONNECTED
+563,Avenida la Coruña,Ernesto Noboa Caamaño,Dense Urban,2796,-0.1975476,-78.4819505,2,-112.75,CONNECTED
+564,Avenida la Coruña,Ernesto Noboa Caamaño,Dense Urban,2796,-0.1974808,-78.4819355,2,-112.58,CONNECTED
+565,Avenida la Coruña,Manuel Iturrey,Residential,2799,-0.1988164,-78.4823285,2,-94.9,CONNECTED
+566,Avenida la Coruña,Manuel Iturrey,Residential,2800,-0.19879,-78.4824192,2,-94.89,CONNECTED
+567,Avenida la Coruña,Plaza Sir Winston Churchill,Residential,2846,-0.1932091,-78.4768904,2,-111.59,CONNECTED
+568,Avenida la Coruña,Plaza Sir Winston Churchill,Residential,2846,-0.193061,-78.4768194,2,-111.8,CONNECTED
+569,Avenida la Coruña,Unnamed Road,Dense Urban,2801,-0.1963711,-78.4811282,2,-126.73,CONNECTED
+570,Avenida la Coruña,Unnamed Road,Dense Urban,2801,-0.1963174,-78.4811917,2,-126.34,CONNECTED
+571,Avenida la Coruña,Unnamed Road,Residential,2804,-0.1962486,-78.4810084,2,-94.59,CONNECTED
+572,Avenida la Coruña,Unnamed Road,Residential,2804,-0.1961931,-78.4810505,2,-94.37,CONNECTED
+573,Barón Alexander von Humboldt,Ernesto Noboa Caamaño,Residential,2821,-0.1980363,-78.4803785,2,-101.67,CONNECTED
+574,Barón Alexander von Humboldt,José Gomez,Residential,2827,-0.1951662,-78.479481,2,-103.25,CONNECTED
+575,Barón Alexander von Humboldt,San Ignacio,Residential,2834,-0.2002247,-78.4806379,2,-106.46,CONNECTED
+576,Belo Horizonte,Manuel Iturrey,Dense Urban,2783,-0.197829,-78.4832015,2,-109.07,CONNECTED
+577,Bermejo,De los Motilones,Residential,2848,-0.1643287,-78.4628456,5,-97.54,CONNECTED
+578,Bernardo Rodriguez,Unnamed Road,Residential,2529,-0.1881548,-78.4479886,4,-118.29,CONNECTED
+579,Bernardo Rodriguez,Unnamed Road,Residential,2531,-0.1880551,-78.4480404,4,-117.75,CONNECTED
+580,Bernardo de Legarda,Cesar Borja Cordero,Park/Periphery,2509,-0.1994864,-78.4481705,4,-120.96,CONNECTED
+581,Bernardo de Legarda,Joan Miro,Park/Periphery,2598,-0.1995209,-78.4543255,4,-120.88,CONNECTED
+582,Bernardo de Legarda,Jorge Adoum,Park/Periphery,2615,-0.1998773,-78.4561747,4,-128.17,CONNECTED
+583,Bernardo de Legarda,Leonardo Tejada,Park/Periphery,2509,-0.1995698,-78.4479137,4,-122.55,CONNECTED
+584,Bernardo de Legarda,Oe10c,Park/Periphery,2566,-0.1991706,-78.4521863,4,-103.72,CONNECTED
+585,Bernardo de Legarda,Oe10d,Park/Periphery,2575,-0.1993405,-78.4529623,4,-111.41,CONNECTED
+586,Bernardo de Legarda,Oe10e,Park/Periphery,2590,-0.1994609,-78.4538718,4,-118.18,CONNECTED
+587,Bernardo de Legarda,Unnamed Road,Park/Periphery,2526,-0.199034,-78.4494214,4,-105.41,CONNECTED
+588,Bernardo de Legarda,Unnamed Road,Park/Periphery,2530,-0.1989404,-78.4496419,4,-100.57,CONNECTED
+589,Bernardo de Legarda,Unnamed Road,Park/Periphery,2544,-0.1988517,-78.4504913,4,-11.68,CONNECTED
+590,Bernardo de Legarda,Unnamed Road,Park/Periphery,2560,-0.1990743,-78.4518449,4,-88.18,CONNECTED
+591,Bernardo de Legarda,Unnamed Road,Park/Periphery,2561,-0.1991051,-78.4519375,4,-89.21,CONNECTED
+592,Bernardo de Legarda,Unnamed Road,Park/Periphery,2572,-0.1992539,-78.4525514,4,-108.09,CONNECTED
+593,Borrero,Sotomayor,Park/Periphery,2907,-0.1866672,-78.4700579,0,-150,OUTAGE
+594,Buoguer,Voz Andes,Residential,2797,-0.1673728,-78.4879985,1,-100.11,CONNECTED
+595,Calle 1,Calle A,Residential,2955,-0.1670256,-78.4599882,5,-107.75,CONNECTED
+596,Calle 1,Calle B,Park/Periphery,2963,-0.1686457,-78.4572984,5,-134.61,CONNECTED
+597,Calle 1,Pasaje B,Residential,2947,-0.1675178,-78.4591689,5,-109.16,CONNECTED
+598,Calle 1,Pasaje C,Residential,2956,-0.1677241,-78.45883,5,-110.39,CONNECTED
+599,Calle 1,Pasaje E,Residential,2958,-0.1683151,-78.4578393,5,-112.5,CONNECTED
+600,Calle 2,Calle A,Residential,2945,-0.1657658,-78.4591759,5,-105.04,CONNECTED
+601,Calle 2,Calle B,Park/Periphery,2952,-0.1676125,-78.4570193,5,-132.76,CONNECTED
+602,Calle 2,Pasaje C,Residential,2954,-0.1664292,-78.4581439,5,-108.66,CONNECTED
+603,Calle 2,Pasaje E,Residential,2949,-0.1672973,-78.4573852,5,-110.93,CONNECTED
+604,Calle 2,Unnamed Road,Residential,2946,-0.1661589,-78.4584825,5,-107.15,CONNECTED
+605,Calle A,Pasaje 1,Residential,2954,-0.166738,-78.4597865,5,-107.17,CONNECTED
+606,Calle A,Pasaje 2,Residential,2958,-0.1664534,-78.4596292,5,-106.85,CONNECTED
+607,Calle A,Pasaje 3,Residential,2951,-0.1660035,-78.459348,5,-105.71,CONNECTED
+608,Calle B,Pasaje 4,Park/Periphery,2955,-0.1681639,-78.4571459,5,-133.63,CONNECTED
+609,Camilo Egas,Eugenio Espejo,Park/Periphery,2531,-0.185598,-78.4478099,0,-150,OUTAGE
+610,Camilo Egas,Redondel del Ciclista,Residential,2846,-0.16301,-78.4626296,5,-89.13,CONNECTED
+611,Camilo Egas,Redondel del Ciclista,Residential,2851,-0.16293,-78.4627921,5,-88.1,CONNECTED
+612,Camilo Egas,Unnamed Road,Residential,2856,-0.1622223,-78.4617267,5,-39.43,CONNECTED
+613,Camilo Egas,Unnamed Road,Residential,2862,-0.1620756,-78.4617112,5,0.32,CONNECTED
+614,Camilo Gallegos Dominguez,De los Motilones,Residential,2834,-0.1672248,-78.4679456,1,-112.49,CONNECTED
+615,Camilo Gallegos Dominguez,Miguel Albornoz,Residential,2840,-0.1684272,-78.4682249,1,-111.91,CONNECTED
+616,Camino de Orellana,Francisco Compte,Park/Periphery,2660,-0.1956985,-78.4747237,3,-120.19,CONNECTED
+617,Camino de Orellana,Leonidas Plaza Lasso,Park/Periphery,2741,-0.199583,-78.4773241,3,-131.53,CONNECTED
+618,Carlos Arroyo Del Río,Germán Alemán,Residential,2814,-0.1801056,-78.4750495,1,-110.3,CONNECTED
+619,Carlos Arroyo Del Río,Jose Correa,Residential,2806,-0.1771526,-78.4741591,1,-103.93,CONNECTED
+620,Carlos Arroyo Del Río,Manuel María Sánchez,Residential,2816,-0.1791749,-78.4747187,1,-109.23,CONNECTED
+621,Carlos Guerrero,Ignacio Bossano,Residential,2796,-0.1891503,-78.4783661,2,-95.38,CONNECTED
+622,Carlos Guerrero,José Bosmediano,Residential,2792,-0.1875031,-78.4782175,2,-97.4,CONNECTED
+623,Carlos Guevara,De los Motilones,Residential,2836,-0.1665019,-78.4668767,5,-114.38,CONNECTED
+624,Carlos Montúfar,El Monitor,Residential,2852,-0.1859756,-78.4748778,2,-119.73,CONNECTED
+625,Carlos Montúfar,Fernando Ayarza,Residential,2811,-0.1874285,-78.4770971,2,-112.87,CONNECTED
+626,Carlos Montúfar,La Cumbre,Residential,2859,-0.1865652,-78.474521,5,-111.28,CONNECTED
+627,Carlos Montúfar,Quiteño Libre,Residential,2831,-0.1861346,-78.4760972,2,-117.15,CONNECTED
+628,Carlos Tobar,Francisco Flor,Residential,2771,-0.1910172,-78.4845294,2,-86.83,CONNECTED
+629,Casarez,Diego Brieda,Residential,2880,-0.1884041,-78.4723517,5,-111.66,CONNECTED
+630,Casarez,José Bosmediano,Residential,2892,-0.1890207,-78.472313,3,-120.73,CONNECTED
+631,Casarez,Mariano Calvache,Residential,2877,-0.1897353,-78.4722068,5,-112.23,CONNECTED
+632,Caspicara,Elisa Ayala González,Park/Periphery,2535,-0.1824435,-78.4475104,4,-126.07,CONNECTED
+633,Caspicara,Victor Mideros,Residential,2544,-0.1881099,-78.4491118,4,-98.26,CONNECTED
+634,Charapa,De los Motilones,Park/Periphery,2839,-0.1644327,-78.4634354,5,-121.56,CONNECTED
+635,Checoslovaquia,Moscú,Residential,2775,-0.185677,-78.4803326,2,-98.21,CONNECTED
+636,Checoslovaquia,Suiza,Residential,2773,-0.1863895,-78.4817038,2,-96.72,CONNECTED
+637,Clemente Celi,Diego Brieda,Residential,2902,-0.1885175,-78.4710268,3,-121.72,CONNECTED
+638,Clemente Celi,Juan de la Vega,Residential,2892,-0.1892462,-78.4711106,3,-120.5,CONNECTED
+639,Clemente Celi,Mariano Calvache,Residential,2876,-0.1897413,-78.4720369,5,-112.2,CONNECTED
+640,Clemente Celi,N33b,Residential,2895,-0.1890329,-78.4710884,3,-120.87,CONNECTED
+641,Cochapata,José Abascal,Residential,2796,-0.170517,-78.473593,1,-78.53,CONNECTED
+642,Cochapata,Unnamed Road,Residential,2790,-0.1703823,-78.4742402,1,-74.92,CONNECTED
+643,Corea,Iñaquito,Park/Periphery,2795,-0.1770901,-78.4878885,1,-122.53,CONNECTED
+644,Corea,Juan Gonzalez,Residential,2788,-0.1772992,-78.4865606,1,-99.87,CONNECTED
+645,Corea,Nuñez de Vela,Residential,2792,-0.1771959,-78.487173,1,-100.41,CONNECTED
+646,Coremo,Tomás Bermur,Residential,2847,-0.1752313,-78.4715969,1,-108.44,CONNECTED
+647,Coronel Conor,José Arizaga,Residential,2785,-0.1701354,-78.4859374,1,-96.88,CONNECTED
+648,Cotopaxi,Joaquin Gallegos Lara,Park/Periphery,2576,-0.1794931,-78.4485734,3,-134.9,CONNECTED
+649,Cotopaxi,Joaquin Gallegos Lara,Park/Periphery,2576,-0.1793617,-78.4485868,3,-134.93,CONNECTED
+650,Cotopaxi,S16a,Park/Periphery,2580,-0.1797466,-78.4491032,3,-134.6,CONNECTED
+651,De Los Colimes,Joel Polanco,Residential,2802,-0.1648713,-78.4727472,1,-92.21,CONNECTED
+652,De Los Colimes,Unnamed Road,Park/Periphery,2796,-0.1680135,-78.4730688,1,-105.44,CONNECTED
+653,De Los Colimes,Unnamed Road,Park/Periphery,2805,-0.1669082,-78.4729616,1,-120.87,CONNECTED
+654,De Los Colimes,Unnamed Road,Residential,2810,-0.1664331,-78.4729156,1,-102.71,CONNECTED
+655,De Los Naranjos,De los Lirios,Residential,2873,-0.1604184,-78.4628967,5,-75.06,CONNECTED
+656,De Los Naranjos,De los Membrillos,Residential,2872,-0.1605721,-78.4620781,5,-71.25,CONNECTED
+657,De Los Naranjos,E16C Chuquiraguas,Residential,2885,-0.1611126,-78.4599196,5,-87.4,CONNECTED
+658,De Los Naranjos,E16a Dolomitas,Residential,2885,-0.160846,-78.4612066,5,-81.58,CONNECTED
+659,De Los Naranjos,E16b Illinizas,Residential,2884,-0.1610325,-78.460609,5,-83.11,CONNECTED
+660,De las Azucenas,Redondel del Ciclista,Residential,2852,-0.1630733,-78.4630712,5,-90.5,CONNECTED
+661,De las Azucenas,Redondel del Ciclista,Residential,2852,-0.1629392,-78.4629465,5,-88.94,CONNECTED
+662,De las Hiedras,Joel Polanco,Residential,2793,-0.1646556,-78.4744328,1,-91.3,CONNECTED
+663,De las Margaritas,De los Viñedos,Park/Periphery,2795,-0.1605703,-78.4750615,1,-118.99,CONNECTED
+664,De los Angeles,De los Viñedos,Residential,2796,-0.1609723,-78.4752123,1,-97.23,CONNECTED
+665,De los Angeles,E10c,Residential,2793,-0.1612143,-78.4757494,1,-96.84,CONNECTED
+666,De los Laureles,Unnamed Road,Park/Periphery,2816,-0.1631276,-78.4701927,1,-132.72,CONNECTED
+667,De los Laureles,Unnamed Road,Park/Periphery,2829,-0.1610242,-78.4698344,0,-150,OUTAGE
+668,De los Lirios,N44e,Residential,2867,-0.1610778,-78.4628306,5,-70.79,CONNECTED
+669,De los Membrillos,N44e,Residential,2868,-0.1611663,-78.4622928,5,-66.23,CONNECTED
+670,De los Motilones,José Queri,Residential,2846,-0.1688921,-78.4688107,1,-111.17,CONNECTED
+671,De los Motilones,Manrique Lara,Park/Periphery,2837,-0.1662096,-78.4664959,5,-133.7,CONNECTED
+672,De los Motilones,Manrique Lara (N40),Residential,2850,-0.1708352,-78.4698296,1,-108.88,CONNECTED
+673,De los Motilones,Miguel Albornoz,Residential,2835,-0.1682669,-78.4685328,1,-111.07,CONNECTED
+674,De los Motilones,N40C,Residential,2840,-0.1697974,-78.4694184,1,-109.18,CONNECTED
+675,De los Motilones,N40C,Residential,2842,-0.1699224,-78.4694649,1,-109.21,CONNECTED
+676,De los Motilones,N40J,Residential,2835,-0.1658061,-78.465907,5,-111.92,CONNECTED
+677,De los Motilones,Pasaje D,Park/Periphery,2839,-0.1645061,-78.4638458,5,-123.1,CONNECTED
+678,De los Motilones,Shuara,Residential,2840,-0.1645746,-78.4642141,5,-104.44,CONNECTED
+679,De los Motilones,Vicente Fierro,Residential,2834,-0.1668318,-78.467322,1,-113.57,CONNECTED
+680,De los Olivos,De los Rieles,Park/Periphery,2617,-0.1999355,-78.4561363,4,-128.23,CONNECTED
+681,De los Rosales,Unnamed Road,Park/Periphery,2811,-0.1628966,-78.471408,1,-131.13,CONNECTED
+682,De los Rosales,Unnamed Road,Park/Periphery,2821,-0.1608788,-78.470999,1,-135.54,CONNECTED
+683,Diego Brieda,Diego de Brieda,Residential,2911,-0.1886512,-78.4698307,3,-122,CONNECTED
+684,Diego Brieda,E18,Residential,2909,-0.1885958,-78.4702875,3,-121.9,CONNECTED
+685,Diego Brieda,José Carbo,Residential,2884,-0.1882252,-78.4737464,2,-120.74,CONNECTED
+686,Diego Noboa,Eduardo Salazar Gomez,Residential,2853,-0.1806376,-78.4734076,5,-108.07,CONNECTED
+687,Diego Noboa,Guanguiltagua,Park/Periphery,2862,-0.1801795,-78.4727389,5,-129.71,CONNECTED
+688,Diego de Brieda,Juan de la Vega,Residential,2904,-0.1893377,-78.4698963,3,-120.93,CONNECTED
+689,E14a,Jorge Drom,Residential,2784,-0.1660935,-78.4846823,1,-96.9,CONNECTED
+690,E16A - Pasaje B,Unnamed Road,Residential,2874,-0.1717896,-78.4687079,5,-99.65,CONNECTED
+691,E16D Antonio Salgado,N44D Camilo Egas,Residential,2885,-0.1611868,-78.4592938,5,-90.65,CONNECTED
+692,E16E Francisco Padilla,N44D Camilo Egas,Park/Periphery,2881,-0.1610134,-78.4588952,5,-100.06,CONNECTED
+693,E16F Leonor Rosales,N44D Camilo Egas,Park/Periphery,2884,-0.1608243,-78.4584898,5,-114.21,CONNECTED
+694,E18,Juan de la Vega,Residential,2911,-0.1893198,-78.4703246,3,-120.93,CONNECTED
+695,E6A,San Salvador,Residential,2775,-0.1927667,-78.4872494,2,-85.4,CONNECTED
+696,Eduardo Salazar Gomez,Juan de Dios Martinez,Residential,2832,-0.1806351,-78.4740926,1,-113.52,CONNECTED
+697,El Calvario,Francisco Compte,Park/Periphery,2679,-0.19989,-78.4760328,3,-125.85,CONNECTED
+698,El Calvario,Leonidas Plaza Lasso,Park/Periphery,2666,-0.2007418,-78.4756233,3,-125.64,CONNECTED
+699,El Comercio,El Día,Residential,2787,-0.1760105,-78.4783414,1,-88.79,CONNECTED
+700,El Comercio,El Tiempo,Residential,2778,-0.1752022,-78.48252,1,-93.39,CONNECTED
+701,El Comercio,El Vengador,Residential,2781,-0.1756711,-78.4801117,1,-90.34,CONNECTED
+702,El Comercio,La Razón,Residential,2782,-0.1759022,-78.4789065,1,-89.17,CONNECTED
+703,El Comercio,Últimas Noticias,Residential,2779,-0.1754145,-78.4814458,1,-91.98,CONNECTED
+704,El Día,El Heraldo,Residential,2782,-0.1728428,-78.4774437,1,-76.46,CONNECTED
+705,El Día,El Mercurio,Residential,2784,-0.1745938,-78.4779503,1,-84.51,CONNECTED
+706,El Día,El Telégrafo,Residential,2786,-0.173422,-78.4776659,1,-79.77,CONNECTED
+707,El Espectador,Últimas Noticias,Residential,2778,-0.1742057,-78.4812257,1,-90.05,CONNECTED
+708,El Heraldo,Juan de Alcántara,Residential,2786,-0.1725473,-78.4789793,1,-81.4,CONNECTED
+709,El Mercurio,El Vengador,Residential,2779,-0.1742831,-78.4798388,1,-87.34,CONNECTED
+710,El Mercurio,La Razón,Residential,2781,-0.1744868,-78.47855,1,-85.22,CONNECTED
+711,El Monitor,Quiteño Libre,Residential,2836,-0.1868338,-78.475781,2,-117.23,CONNECTED
+712,El Nacional,El Telégrafo,Residential,2779,-0.1730652,-78.4796541,1,-84.63,CONNECTED
+713,El Norte,El Sol,Residential,2782,-0.171068,-78.4784325,1,-76.53,CONNECTED
+714,El Sol,El Universo,Residential,2783,-0.1715968,-78.4785299,1,-77.56,CONNECTED
+715,El Telégrafo,El Tiempo,Residential,2780,-0.1726281,-78.4820862,1,-90.38,CONNECTED
+716,El Telégrafo,Juan de Alcántara,Residential,2779,-0.1731752,-78.4790593,1,-83.07,CONNECTED
+717,El Telégrafo,Porvenir,Residential,2774,-0.1727219,-78.4815256,1,-89.18,CONNECTED
+718,El Telégrafo,Últimas Noticias,Residential,2776,-0.1728257,-78.4809744,1,-87.93,CONNECTED
+719,El Tiempo,El Universo,Residential,2778,-0.1710002,-78.4817984,1,-89.18,CONNECTED
+720,El Tiempo,Roma,Residential,2779,-0.1740165,-78.4823165,1,-91.91,CONNECTED
+721,El Universo,Últimas Noticias,Residential,2774,-0.171181,-78.4807111,1,-86.21,CONNECTED
+722,El Vengador,El Zurriago,Residential,2780,-0.1748382,-78.4799561,1,-88.6,CONNECTED
+723,Elisa Ayala González,Unnamed Road,Residential,2556,-0.1869261,-78.4495524,4,-99.64,CONNECTED
+724,Elisa Ayala González,Victor Mideros,Residential,2556,-0.1871839,-78.4496304,4,-99.34,CONNECTED
+725,Emilio Sola,Isla Pinzon,Dense Urban,2787,-0.1649922,-78.4767335,1,-125.05,CONNECTED
+726,Emilio Sola,Isla Pinzon,Dense Urban,2788,-0.1650046,-78.476663,1,-125,CONNECTED
+727,Ernesto Noboa Caamaño,José Orton,Dense Urban,2788,-0.1973584,-78.4826507,2,-108.51,CONNECTED
+728,Ernesto Noboa Caamaño,José Orton,Dense Urban,2788,-0.1972964,-78.4826367,2,-108.25,CONNECTED
+729,Eugenio Espejo,Unnamed Road,Residential,2528,-0.188268,-78.4480112,4,-118.45,CONNECTED
+730,Eugenio Espejo,Unnamed Road,Residential,2529,-0.188351,-78.4481493,4,-118,CONNECTED
+731,Eugenio Espejo,Unnamed Road,Residential,2533,-0.1880093,-78.4481395,4,-117.05,CONNECTED
+732,Eugenio Espejo,Unnamed Road,Residential,2536,-0.1880652,-78.4482858,4,-98.49,CONNECTED
+733,Eugenio Espejo,Vía Interoceánica,Residential,2526,-0.1886953,-78.4477066,4,-118.58,CONNECTED
+734,Eugenio Espejo,Vía Interoceánica,Residential,2529,-0.18895,-78.4481254,4,-117.24,CONNECTED
+735,Eugenio Espejo,Vía Interoceánica,Residential,2530,-0.1891614,-78.4480919,4,-116.65,CONNECTED
+736,Federico Paez,Francisco Arízaga Luque,Residential,2851,-0.1849894,-78.4746909,1,-119.99,CONNECTED
+737,Federico Paez,Juan de Dios Martinez,Residential,2831,-0.1838061,-78.4755094,1,-117.07,CONNECTED
+738,Federico Paez,Unnamed Road,Residential,2840,-0.1844325,-78.475174,1,-118.56,CONNECTED
+739,Federico Paez,Unnamed Road,Residential,2861,-0.1850841,-78.4739773,5,-110.47,CONNECTED
+740,Feliza Pazmiño,Lorenzo Chávez,Park/Periphery,2883,-0.1910183,-78.4699243,5,-135.03,CONNECTED
+741,Feliza Pazmiño,Unnamed Road,Park/Periphery,2869,-0.1916153,-78.4696474,5,-135.29,CONNECTED
+742,Fernando Ayarza,Quiteño Libre,Residential,2800,-0.1865755,-78.4774854,1,-103.38,CONNECTED
+743,Finlandia,Suecia,Residential,2780,-0.1796042,-78.4805972,1,-96.72,CONNECTED
+744,Francisco Compte,Juan de Toro,Park/Periphery,2693,-0.1994755,-78.4759051,3,-125.53,CONNECTED
+745,Francisco Compte,N31,Park/Periphery,2659,-0.1978726,-78.4755407,3,-120.66,CONNECTED
+746,Francisco Urrutia,Guanguiltagua,Park/Periphery,2847,-0.173706,-78.4705391,1,-129,CONNECTED
+747,Francisco Urrutia,Tomás Bermur,Park/Periphery,2844,-0.1733975,-78.4707387,1,-128,CONNECTED
+748,Gabriela Marina,N40J,Park/Periphery,2851,-0.1657119,-78.4646588,5,-125.21,CONNECTED
+749,Germán Alemán,Javier Arauz,Residential,2792,-0.1795978,-78.4771484,1,-95.17,CONNECTED
+750,Germán Alemán,Juan Ramírez,Residential,2797,-0.1797155,-78.47647,1,-95.28,CONNECTED
+751,Germán Alemán,Pasaje Manuel Sáenz,Residential,2786,-0.1794899,-78.4777735,1,-95.15,CONNECTED
+752,Giacomo Rocca,Ignacio Bossano,Residential,2785,-0.189097,-78.4790233,2,-94.77,CONNECTED
+753,Giacomo Rocca,José Bosmediano,Residential,2783,-0.1874401,-78.4788915,2,-96.95,CONNECTED
+754,Gonnessiat,Jacinto Bejarano,Residential,2841,-0.1943464,-78.4784382,2,-107.54,CONNECTED
+755,Gonnessiat,José Gomez,Residential,2836,-0.195371,-78.4790446,2,-105.23,CONNECTED
+756,Gonzalo Noriega,Hugo Moncayo,Residential,2794,-0.1727821,-78.4746566,1,-77.03,CONNECTED
+757,Gonzalo Noriega,Portete,Residential,2795,-0.1738616,-78.4748893,1,-81.1,CONNECTED
+758,Gonzalo Rubio Orbe,Unnamed Road,Park/Periphery,2816,-0.1937315,-78.4751031,2,-132.38,CONNECTED
+759,Gonzalo Serrano,Jose Correa,Residential,2792,-0.1764584,-78.4756112,1,-88.85,CONNECTED
+760,Gregorio Munga,Hugo Moncayo,Residential,2789,-0.1726516,-78.4752485,1,-74.1,CONNECTED
+761,Gregorio Munga,Maria Angelica Carrillo,Residential,2789,-0.1749662,-78.4757777,1,-84.42,CONNECTED
+762,Gregorio Munga,Maria Angelica Carrillo,Residential,2790,-0.1748999,-78.4757555,1,-84.2,CONNECTED
+763,Gregorio Munga,Portete,Residential,2787,-0.173722,-78.4754345,1,-79.63,CONNECTED
+764,Guanguiltagua,Tomás Bermur,Park/Periphery,2852,-0.1743124,-78.4707429,1,-129.62,CONNECTED
+765,Guepi,Isla San Cristobal,Residential,2795,-0.160257,-78.480232,1,-99.06,CONNECTED
+766,Guepi,Isla Seymour,Residential,2792,-0.1608215,-78.4789488,1,-97.88,CONNECTED
+767,Guillermo Reiss,Juan Boussingault,Residential,2781,-0.1911487,-78.479289,2,-91.63,CONNECTED
+768,Hernando Sarmiento,Hugo Moncayo,Residential,2787,-0.1725332,-78.4758401,1,-71.54,CONNECTED
+769,Hernando Sarmiento,Portete,Residential,2781,-0.1735913,-78.4760509,1,-78.48,CONNECTED
+770,Holanda,Luxemburgo,Residential,2775,-0.1836272,-78.4814472,2,-100.18,CONNECTED
+771,Hugo Moncayo,José Abascal,Residential,2805,-0.1728959,-78.4740819,1,-92.19,CONNECTED
+772,Hugo Moncayo,Manuel Camacho,Residential,2806,-0.1730105,-78.4734959,1,-94.78,CONNECTED
+773,Hugo Moncayo,Manuel Guzmán,Residential,2813,-0.1731407,-78.4728294,1,-98.51,CONNECTED
+774,Ignacio Bossano,Pasaje Panorama,Residential,2811,-0.1892104,-78.477197,2,-111.02,CONNECTED
+775,Ignacio Bossano,Sergio Jativa,Residential,2807,-0.1891973,-78.4774347,2,-110.11,CONNECTED
+776,Ignacio San María,Iñaquito,Park/Periphery,2795,-0.1786235,-78.4881851,1,-123.67,CONNECTED
+777,Ignacio San María,Juan Gonzalez,Park/Periphery,2792,-0.1788058,-78.4868795,1,-122.59,CONNECTED
+778,Ignacio San María,Nuñez de Vela,Park/Periphery,2794,-0.1786909,-78.4875332,1,-123.11,CONNECTED
+779,Isla Baltra,Jorge Drom,Residential,2784,-0.1664239,-78.4847029,1,-96.7,CONNECTED
+780,Isla Española,Rio Cofanes,Residential,2783,-0.1626557,-78.483925,1,-98.95,CONNECTED
+781,Isla Fernandina,Isla Floreana,Residential,2783,-0.167593,-78.4813534,1,-90.5,CONNECTED
+782,Isla Floreana,Isla Genovesa,Residential,2778,-0.1674949,-78.4819231,1,-91.65,CONNECTED
+783,Isla Floreana,Isla Isabela,Residential,2780,-0.1672615,-78.4832374,1,-94.04,CONNECTED
+784,Isla Floreana,Isla San Cristobal,Residential,2783,-0.1673822,-78.4825186,1,-92.79,CONNECTED
+785,Isla Floreana,Isla Santa Fe,Residential,2780,-0.167696,-78.4807805,1,-89.26,CONNECTED
+786,Isla Floreana,Isla Seymour,Residential,2780,-0.1678006,-78.4801931,1,-87.89,CONNECTED
+787,Isla Isabela,Jose Bolaños,Residential,2782,-0.1681466,-78.4834037,1,-93.65,CONNECTED
+788,Isla Isabela,Jose Vivanco,Residential,2790,-0.1607816,-78.4818933,1,-99.34,CONNECTED
+789,Isla Isabela,Luis Barberis,Residential,2789,-0.1608346,-78.4819639,1,-99.32,CONNECTED
+790,Isla Isabela,Yasuní,Park/Periphery,2792,-0.1602886,-78.4812092,1,-120.84,CONNECTED
+791,Isla Marchena,Joel Polanco,Residential,2808,-0.1649588,-78.4717588,1,-106.32,CONNECTED
+792,Isla Pinzon,Louvre Rousseau,Dense Urban,2788,-0.1639973,-78.4764731,1,-127.53,CONNECTED
+793,Isla Pinzon,Louvre Rousseau,Dense Urban,2788,-0.1639836,-78.4765419,1,-127.57,CONNECTED
+794,Isla Pinzon,Pablo Claudel,Residential,2785,-0.1678806,-78.4778785,1,-82.74,CONNECTED
+795,Isla Pinzon,Pablo Claudel,Residential,2786,-0.1679442,-78.4778591,1,-82.48,CONNECTED
+796,Isla Pinzon,Victor Hugo,Dense Urban,2788,-0.1645284,-78.4765732,1,-126.24,CONNECTED
+797,Isla Pinzon,Victor Hugo,Dense Urban,2789,-0.1645171,-78.4766391,1,-126.28,CONNECTED
+798,Isla San Cristobal,Isla Seymour,Park/Periphery,2796,-0.1594443,-78.4787774,1,-120.85,CONNECTED
+799,Isla San Cristobal,Yasuní,Residential,2790,-0.1607452,-78.4808804,1,-98.82,CONNECTED
+800,Isla Santiago,Rio Cofanes,Residential,2788,-0.1625433,-78.484506,1,-99.53,CONNECTED
+801,Iñaquito,Joaquín Auz,Residential,2786,-0.1737991,-78.487206,1,-98.97,CONNECTED
+802,Iñaquito,José Arizaga,Residential,2793,-0.1700245,-78.4865019,1,-97.67,CONNECTED
+803,Iñaquito,Juan Pablo Sanz,Park/Periphery,2796,-0.180229,-78.4885182,1,-124.88,CONNECTED
+804,Iñaquito,Unión Nacional de Periodistas,Residential,2788,-0.1743009,-78.4872968,1,-99.23,CONNECTED
+805,Japón,Mónaco,Residential,2781,-0.1743793,-78.4834807,1,-94.16,CONNECTED
+806,Japón,Unión Nacional de Periodistas,Residential,2784,-0.1750129,-78.4835964,1,-94.82,CONNECTED
+807,Japón,Vicente Cárdenas,Residential,2782,-0.1702979,-78.4827359,1,-91.39,CONNECTED
+808,Javier Arauz,Manuel María Sánchez,Residential,2787,-0.1787567,-78.4770076,1,-93.73,CONNECTED
+809,Jiménez de la Espada,N32E,Residential,2806,-0.1930335,-78.4798019,2,-101.57,CONNECTED
+810,Joan Miro,Unnamed Road,Park/Periphery,2595,-0.2003204,-78.4544467,4,-121.8,CONNECTED
+811,Joan Miro,Unnamed Road,Park/Periphery,2600,-0.2000601,-78.4543873,4,-121.77,CONNECTED
+812,Joaquin Auz,Últimas Noticias,Residential,2780,-0.1747896,-78.481332,1,-90.99,CONNECTED
+813,Jonás Guerrero,San Ignacio,Park/Periphery,2831,-0.2003009,-78.479514,2,-128.61,CONNECTED
+814,Jorge Drom,José Arizaga,Dense Urban,2776,-0.170266,-78.4853593,1,-132.09,CONNECTED
+815,Jorge Drom,Tinajillas,Dense Urban,2776,-0.1697479,-78.4852732,1,-132.04,CONNECTED
+816,Jorge Drom,Unión Nacional de Periodistas,Residential,2780,-0.1745223,-78.4860701,1,-97.85,CONNECTED
+817,Jose Correa,Sebastian Quintero,Residential,2808,-0.1770306,-78.4746612,1,-103.81,CONNECTED
+818,Jose Maria Ayora,Vicente Cárdenas,Residential,2783,-0.1700787,-78.4838714,1,-93.63,CONNECTED
+819,José Abascal,Maria Angelica Carrillo,Residential,2801,-0.1751534,-78.4748592,1,-85.66,CONNECTED
+820,José Abascal,Maria Angelica Carrillo,Residential,2801,-0.1750946,-78.4748182,1,-85.52,CONNECTED
+821,José Abascal,Pasaje A,Residential,2802,-0.174594,-78.4745145,1,-84.33,CONNECTED
+822,José Abascal,Portete,Residential,2799,-0.1739701,-78.4742746,1,-82.71,CONNECTED
+823,José Bosmediano,José Carbo,Residential,2880,-0.1890754,-78.4738643,5,-112.24,CONNECTED
+824,José Bosmediano,Pasaje Baquero,Park/Periphery,2853,-0.1894116,-78.4754825,5,-135.3,CONNECTED
+825,José Bosmediano,Sergio Jativa,Residential,2808,-0.1877144,-78.4775892,2,-111.68,CONNECTED
+826,José Padilla,Juan Gonzalez,Residential,2798,-0.1811792,-78.4873769,2,-102.72,CONNECTED
+827,José Padilla,Nuñez de Vela,Residential,2795,-0.1815464,-78.488081,2,-102.55,CONNECTED
+828,José Queri,Pasaje H,Residential,2820,-0.1680005,-78.4702035,1,-106.72,CONNECTED
+829,Juan Gonzalez,Juan Pablo Sanz,Residential,2797,-0.1804357,-78.4872522,1,-102.38,CONNECTED
+830,Juan Ignacio Pareja,Pedro Ponce Carrasco,Residential,2783,-0.1926038,-78.4807586,2,-86.52,CONNECTED
+831,Juan Pablo Sanz,Nuñez de Vela,Residential,2791,-0.1803406,-78.4878997,1,-102.8,CONNECTED
+832,Juan Ramírez,Manuel Godoy,Residential,2797,-0.1792571,-78.4763787,1,-94.52,CONNECTED
+833,Juan Ramírez,Manuel María Sánchez,Residential,2798,-0.178891,-78.4763081,1,-93.89,CONNECTED
+834,Juan de Alcántara,La Tierra,Residential,2777,-0.1737797,-78.4791528,1,-84.73,CONNECTED
+835,Juan de Illanes,Manrique Lara,Residential,2863,-0.1699124,-78.4688278,5,-97.94,CONNECTED
+836,Juan de Illanes,Manrique Lara (N40),Residential,2857,-0.1703349,-78.4690409,5,-98.53,CONNECTED
+837,Julio Moreno,Unnamed Road,Residential,2781,-0.1809062,-78.4781044,1,-97.3,CONNECTED
+838,Julio Moreno,Unnamed Road,Residential,2782,-0.1809112,-78.4780439,1,-97.3,CONNECTED
+839,La Brújula,Roma,Residential,2782,-0.173462,-78.4816143,1,-90.02,CONNECTED
+840,La Brújula,Últimas Noticias,Residential,2780,-0.1735349,-78.4811035,1,-88.99,CONNECTED
+841,La Colina,San Ignacio,Residential,2799,-0.2013375,-78.4839055,2,-101.1,CONNECTED
+842,La Cumbre,Quiteño Libre,Residential,2845,-0.1875433,-78.4754791,2,-117.59,CONNECTED
+843,La Niña,Reina Victoria,Park/Periphery,2788,-0.1987459,-78.4877953,2,-106.8,CONNECTED
+844,La Niña,Yánez Pinzón,Residential,2779,-0.1994501,-78.4860595,2,-84.91,CONNECTED
+845,La Pinta,Reina Victoria,Park/Periphery,2782,-0.1995353,-78.4881155,2,-109.09,CONNECTED
+846,La Pradera,Mariana de Jesús,Residential,2776,-0.1933664,-78.4863949,2,-81.6,CONNECTED
+847,La Pradera,Mariana de Jesús,Residential,2778,-0.1959726,-78.4852905,2,-66.93,CONNECTED
+848,La Pradera,Mariano Aguilera,Residential,2784,-0.1931305,-78.4859235,2,-81.14,CONNECTED
+849,La Pradera,San Salvador,Residential,2775,-0.1936398,-78.4868838,2,-82.33,CONNECTED
+850,La Pradera,San Salvador,Residential,2776,-0.1955871,-78.4860574,2,-74.01,CONNECTED
+851,Leonardo Tejada,N44C Leonardo Tejada,Residential,2863,-0.1621443,-78.4604166,5,-68.76,CONNECTED
+852,Leonardo Tejada,Unnamed Road,Park/Periphery,2515,-0.1980744,-78.4483614,4,-119,CONNECTED
+853,Leonardo Tejada,Unnamed Road,Park/Periphery,2518,-0.19899,-78.4479566,4,-120.09,CONNECTED
+854,Leonardo Tejada,Unnamed Road,Residential,2860,-0.1620853,-78.4615432,5,-40.47,CONNECTED
+855,Lorenzo Chávez,Mariano Calvache,Residential,2890,-0.1898864,-78.4699204,3,-119.88,CONNECTED
+856,Los Obrajes,Quiteño Libre,Residential,2840,-0.1871392,-78.4756582,2,-117.4,CONNECTED
+857,Manrique Lara,Miguel Albornoz,Residential,2853,-0.1686023,-78.4679044,5,-95.69,CONNECTED
+858,Manrique Lara,N40G,Residential,2852,-0.1672911,-78.466866,5,-110.91,CONNECTED
+859,Manuel Barreto,Unnamed Road,Residential,2814,-0.1923681,-78.4775347,2,-108,CONNECTED
+860,Manuel Camacho,Portete,Residential,2805,-0.1740848,-78.4737125,1,-96.83,CONNECTED
+861,Manuel María Sánchez,Sebastian Quintero,Residential,2807,-0.1790732,-78.475248,1,-107.31,CONNECTED
+862,Manuel Sotomayor,Sotomayor,Residential,2907,-0.1880523,-78.4703689,3,-122.55,CONNECTED
+863,Maria Angelica Carrillo,Unnamed Road,Residential,2789,-0.1748997,-78.476112,1,-84.13,CONNECTED
+864,Maria Angelica Carrillo,Unnamed Road,Residential,2789,-0.1748287,-78.4760962,1,-83.87,CONNECTED
+865,Mariana de Jesús,Martin Carrión,Residential,2774,-0.1945993,-78.4858292,2,-74.94,CONNECTED
+866,Mariana de Jesús,Potosi,Park/Periphery,2777,-0.1907844,-78.4875013,2,-110.49,CONNECTED
+867,Mariano Aguilera,Martin Carrión,Residential,2775,-0.1942638,-78.4854205,2,-74.42,CONNECTED
+868,Mariano Aguilera,Martín Carrion,Residential,2775,-0.194148,-78.4854727,2,-75.27,CONNECTED
+869,Mariano Calvache,Playa Central,Residential,2884,-0.189791,-78.4714442,3,-119.47,CONNECTED
+870,Mariano Echeverria,Voz Andes,Residential,2788,-0.1656348,-78.4877671,1,-100.56,CONNECTED
+871,Mariano Echeverria,Voz Andes,Residential,2788,-0.1656268,-78.4876776,1,-100.47,CONNECTED
+872,Martin Carrión,San Salvador,Residential,2777,-0.1944974,-78.4865062,2,-78.71,CONNECTED
+873,Mauricio Plaza,Pedro Ponce Carrasco,Residential,2771,-0.1921328,-78.481766,2,-85.6,CONNECTED
+874,Moscú,Noruega,Residential,2775,-0.1865582,-78.4803864,2,-97.09,CONNECTED
+875,N44B Camino Antiguo a Nayon,N44C Leonardo Tejada,Park/Periphery,2838,-0.1603819,-78.4545182,5,-135.86,CONNECTED
+876,Noruega,Suiza,Residential,2775,-0.1873509,-78.4811204,2,-95.61,CONNECTED
+877,Nuestra Señora de Santa Ana,Unnamed Road,Park/Periphery,2709,-0.1608841,-78.4484058,0,-150,OUTAGE
+878,Nuestra Señora de Santa Ana,Unnamed Road,Park/Periphery,2832,-0.1620084,-78.458319,5,-125.25,CONNECTED
+879,Nuestra Señora de Santa Ana,Unnamed Road,Park/Periphery,2841,-0.1619071,-78.4583892,5,-123.05,CONNECTED
+880,Nuestra Señora de Santa Ana,Unnamed Road,Park/Periphery,2843,-0.1621465,-78.45853,5,-121.88,CONNECTED
+881,Nuestra Señora de Santa Ana,Unnamed Road,Park/Periphery,2852,-0.162051,-78.4585842,5,-118.69,CONNECTED
+882,Nuestra Señora de Santa Ana,Unnamed Road,Residential,2854,-0.1622532,-78.4615579,5,-45.63,CONNECTED
+883,Nuestra Señora de Santa Ana,Unnamed Road,Residential,2857,-0.162155,-78.4615144,5,-43.92,CONNECTED
+884,Nuevo Amanecer,Unnamed Road,Park/Periphery,2736,-0.1804151,-78.4549825,0,-150,OUTAGE
+885,Nuñez de Vela,Unión Nacional de Periodistas,Residential,2787,-0.1744074,-78.4866977,1,-98.57,CONNECTED
+886,Oe10e,S17b,Park/Periphery,2554,-0.1817308,-78.4478724,4,-126.64,CONNECTED
+887,Oe10e,Unnamed Road,Park/Periphery,2594,-0.1997388,-78.4538946,4,-118.97,CONNECTED
+888,Oe12B,Pasaje Las Retamas,Park/Periphery,2571,-0.1916537,-78.4513863,4,-126.64,CONNECTED
+889,Oe12B,Vía Interoceánica,Park/Periphery,2574,-0.1926471,-78.4523368,4,-125.5,CONNECTED
+890,Pasaje 1,Pasaje A,Residential,2945,-0.1670461,-78.459232,5,-107.97,CONNECTED
+891,Pasaje 1,Pasaje B,Residential,2943,-0.1671864,-78.4590116,5,-108.39,CONNECTED
+892,Pasaje 2,Pasaje A,Residential,2945,-0.1667637,-78.459075,5,-107.53,CONNECTED
+893,Pasaje 3,Pasaje A,Residential,2945,-0.1663354,-78.4588101,5,-106.95,CONNECTED
+894,Pasaje 4,Pasaje E,Residential,2951,-0.1678585,-78.4576227,5,-111.64,CONNECTED
+895,Pasaje A,Unnamed Road,Residential,2808,-0.1747742,-78.4738399,1,-99.13,CONNECTED
+896,Pasaje B,Unnamed Road,Residential,2946,-0.1663655,-78.4586171,5,-107.36,CONNECTED
+897,Pasaje Baquero,Unnamed Road,Park/Periphery,2858,-0.1904888,-78.4738894,5,-135.45,CONNECTED
+898,Pasaje Donoso,Whymper,Residential,2773,-0.1928825,-78.484093,2,-79.85,CONNECTED
+899,Pasaje Las Retamas,Pasaje Olga Alcia Bravo,Park/Periphery,2569,-0.1919243,-78.4511596,4,-125.58,CONNECTED
+900,Pasaje Olga Alcia Bravo,Unnamed Road,Park/Periphery,2535,-0.1933735,-78.4517035,4,-109.51,CONNECTED
+901,Pasaje Olga Alcia Bravo,Unnamed Road,Park/Periphery,2563,-0.1924039,-78.4508398,4,-111.65,CONNECTED
+902,Pasaje Olga Alcia Bravo,Unnamed Road,Park/Periphery,2569,-0.192034,-78.4511223,4,-125.33,CONNECTED
+903,Playa Central,Unnamed Road,Residential,2870,-0.1903256,-78.4713869,5,-112.36,CONNECTED
+904,Rio Cofanes,Segovia,Residential,2786,-0.1624385,-78.4850817,1,-100.09,CONNECTED
+905,San Ignacio,San Javier,Residential,2794,-0.2009009,-78.4844814,2,-87.93,CONNECTED
+906,Suyana,Unnamed Road,Park/Periphery,2586,-0.1889348,-78.4508199,3,-131.01,CONNECTED
+907,Suyana,Urbanización Sol del Valle,Residential,2582,-0.1888067,-78.4505615,3,-108.95,CONNECTED
+908,Unnamed Road,Victor Mideros,Residential,2532,-0.1882978,-78.4482825,4,-117.03,CONNECTED
+909,Unnamed Road,Victor Mideros,Residential,2534,-0.188209,-78.4483271,4,-116.36,CONNECTED
+910,Unnamed Road,Victor Mideros,Residential,2559,-0.1869383,-78.4496947,4,-99.62,CONNECTED
+911,Unnamed Road,Victor Mideros,Park/Periphery,2573,-0.1859892,-78.4500146,3,-132.26,CONNECTED
+912,Unnamed Road,Vía Interoceánica,Park/Periphery,2573,-0.1922086,-78.4516528,4,-125.93,CONNECTED
+913,Unnamed Road,Whymper,Dense Urban,2801,-0.1963739,-78.481113,2,-126.81,CONNECTED
+914,Unnamed Road,Whymper,Dense Urban,2802,-0.1962064,-78.4811715,2,-126.58,CONNECTED
+915,Unnamed Road,Whymper,Dense Urban,2803,-0.1963345,-78.4810235,2,-127.69,CONNECTED
+916,Unnamed Road,Whymper,Dense Urban,2803,-0.1961784,-78.4810953,2,-127.19,CONNECTED

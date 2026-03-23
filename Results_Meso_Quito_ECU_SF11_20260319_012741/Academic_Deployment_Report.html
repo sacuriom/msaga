@@ -1,0 +1,88 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><style>body{font-family:Arial, sans-serif;margin:40px;color:#333;line-height:1.6;} table{border-collapse:collapse;width:100%;margin-bottom:30px;} th,td{border:1px solid #ccc;padding:10px;text-align:center;font-size:14px;} th{background-color:#003366;color:white;} .box{background-color:#f0f4f8;padding:20px;border-left:5px solid #003366;margin-bottom:20px;} h2{color:#003366;border-bottom:2px solid #ccc;padding-bottom:5px;} .log{background-color:#1e1e1e;color:#00ff00;padding:15px;font-family:monospace;font-size:12px;white-space:pre-wrap;}</style></head><body>
+<h1>LoRaWAN Network Deployment & QoS Report</h1>
+<div class="box"><p><strong>Target City:</strong> Quito, ECU</p><p><strong>Evaluated Area:</strong> 21.38 km²</p><p><strong>Required Coverage:</strong> 98.0%</p></div>
+<h2>1. A Priori RF Parameters (ITU-R 3D Constraints)</h2>
+<table><tr><th>Hardware Profile</th><th>Frequency</th><th>Spreading Factor</th><th>Sensitivity Limit</th><th>Tx Power</th><th>Antenna Height ($H_{ant}$)</th></tr><tr><td>Milesight UG67 Outdoor</td><td>915 MHz</td><td><strong>SF11</strong></td><td>-136.0 dBm</td><td>27.0 dBm</td><td><strong>6 meters</strong></td></tr></table>
+<h2>2. Algorithm Benchmark & Network Health (K-Coverage)</h2>
+<table><tr><th>Optimization Algorithm</th><th>Gateways Deployed</th><th>Physical Coverage</th><th>K=1 (Single Point Failure Risk)</th><th>K=2 (Ideal Redundancy)</th><th>K&ge;3 (Over-provisioning)</th><th>CPU Time (s)</th></tr>
+<tr><td><strong>Greedy SCP</strong></td><td>4</td><td>98.25%</td><td><span style="color:#d32f2f;">21.83%</span></td><td><span style="color:#388e3c;font-weight:bold;">40.39%</span></td><td>36.03%</td><td>0.01s</td></tr>
+<tr><td><strong>K-Medoids 3D</strong></td><td>13</td><td>98.91%</td><td><span style="color:#d32f2f;">4.48%</span></td><td><span style="color:#388e3c;font-weight:bold;">11.14%</span></td><td>83.30%</td><td>1.75s</td></tr>
+<tr><td><strong>Standard SAGA</strong></td><td>4</td><td>98.25%</td><td><span style="color:#d32f2f;">21.83%</span></td><td><span style="color:#388e3c;font-weight:bold;">40.39%</span></td><td>36.03%</td><td>0.04s</td></tr>
+<tr><td><strong>Proposed 3D-M-SAGA</strong></td><td>5</td><td>99.24%</td><td><span style="color:#d32f2f;">21.29%</span></td><td><span style="color:#388e3c;font-weight:bold;">15.50%</span></td><td>62.45%</td><td>0.20s</td></tr>
+</table>
+<h2>3. Detailed Gateway Deployment & QoS Analysis (Spreading Factor Breakdown)</h2>
+<h3>Algorithm: Greedy SCP</h3>
+<table><tr><th>GW ID</th><th>Location (Intersection)</th><th>Altitude (Terrain + $H_{ant}$)</th><th>Average Serving Radius (m)</th><th style="background-color:#2e7d32;">Excellent (SF7-8)</th><th style="background-color:#f57f17;">Good (SF9-10)</th><th style="background-color:#c62828;">Marginal (SF11-12)</th><th>Total Nodes Served</th></tr>
+<tr><td><strong>GW-1</strong></td><td>Avenida 6 de Diciembre & Avenida Diego de Almagro</td><td>2782.0 m</td><td>689.0 m</td><td>190</td><td>50</td><td>77</td><td><strong>317</strong></td></tr>
+<tr><td><strong>GW-2</strong></td><td>Avenida 6 de Diciembre & Avenida Gaspar de Villarroel</td><td>2787.0 m</td><td>856.4 m</td><td>313</td><td>55</td><td>73</td><td><strong>441</strong></td></tr>
+<tr><td><strong>GW-3</strong></td><td>Bernardo de Legarda & Unnamed Road</td><td>2566.0 m</td><td>936.5 m</td><td>8</td><td>13</td><td>37</td><td><strong>58</strong></td></tr>
+<tr><td><strong>GW-4</strong></td><td>Camilo Egas & Unnamed Road</td><td>2868.0 m</td><td>1022.5 m</td><td>31</td><td>35</td><td>18</td><td><strong>84</strong></td></tr>
+</table>
+<h3>Algorithm: K-Medoids 3D</h3>
+<table><tr><th>GW ID</th><th>Location (Intersection)</th><th>Altitude (Terrain + $H_{ant}$)</th><th>Average Serving Radius (m)</th><th style="background-color:#2e7d32;">Excellent (SF7-8)</th><th style="background-color:#f57f17;">Good (SF9-10)</th><th style="background-color:#c62828;">Marginal (SF11-12)</th><th>Total Nodes Served</th></tr>
+<tr><td><strong>GW-1</strong></td><td>Antonio Navarro & Juan Severino</td><td>2779.0 m</td><td>372.5 m</td><td>87</td><td>10</td><td>5</td><td><strong>102</strong></td></tr>
+<tr><td><strong>GW-2</strong></td><td>Augusto Egas & José Bosmediano</td><td>2873.0 m</td><td>429.5 m</td><td>36</td><td>9</td><td>4</td><td><strong>49</strong></td></tr>
+<tr><td><strong>GW-3</strong></td><td>Avenida 6 de Diciembre & Avenida Portugal</td><td>2788.0 m</td><td>370.1 m</td><td>88</td><td>2</td><td>0</td><td><strong>90</strong></td></tr>
+<tr><td><strong>GW-4</strong></td><td>Avenida 6 de Diciembre & Maria Angelica Carrillo</td><td>2788.0 m</td><td>346.1 m</td><td>90</td><td>0</td><td>0</td><td><strong>90</strong></td></tr>
+<tr><td><strong>GW-5</strong></td><td>Avenida Atahualpa & Juan Gonzalez</td><td>2795.0 m</td><td>298.8 m</td><td>30</td><td>3</td><td>0</td><td><strong>33</strong></td></tr>
+<tr><td><strong>GW-6</strong></td><td>Avenida París & Emilio Sola</td><td>2789.0 m</td><td>323.7 m</td><td>89</td><td>17</td><td>0</td><td><strong>106</strong></td></tr>
+<tr><td><strong>GW-7</strong></td><td>Avenida Río Amazonas & José Arizaga</td><td>2790.0 m</td><td>346.7 m</td><td>88</td><td>5</td><td>0</td><td><strong>93</strong></td></tr>
+<tr><td><strong>GW-8</strong></td><td>Bernardo de Legarda & Unnamed Road</td><td>2566.0 m</td><td>701.5 m</td><td>5</td><td>12</td><td>19</td><td><strong>36</strong></td></tr>
+<tr><td><strong>GW-9</strong></td><td>Ernesto Noboa Caamaño & José Orton</td><td>2794.0 m</td><td>373.3 m</td><td>59</td><td>32</td><td>13</td><td><strong>104</strong></td></tr>
+<tr><td><strong>GW-10</strong></td><td>Eugenio Espejo & Unnamed Road</td><td>2542.0 m</td><td>221.0 m</td><td>18</td><td>5</td><td>1</td><td><strong>24</strong></td></tr>
+<tr><td><strong>GW-11</strong></td><td>Isla Santiago & Rio Cofanes</td><td>2794.0 m</td><td>348.2 m</td><td>54</td><td>0</td><td>2</td><td><strong>56</strong></td></tr>
+<tr><td><strong>GW-12</strong></td><td>José Queri & Pasaje H</td><td>2826.0 m</td><td>560.4 m</td><td>56</td><td>7</td><td>5</td><td><strong>68</strong></td></tr>
+<tr><td><strong>GW-13</strong></td><td>Nuestra Señora de Santa Ana & Unnamed Road</td><td>2860.0 m</td><td>516.8 m</td><td>28</td><td>19</td><td>8</td><td><strong>55</strong></td></tr>
+</table>
+<h3>Algorithm: Standard SAGA</h3>
+<table><tr><th>GW ID</th><th>Location (Intersection)</th><th>Altitude (Terrain + $H_{ant}$)</th><th>Average Serving Radius (m)</th><th style="background-color:#2e7d32;">Excellent (SF7-8)</th><th style="background-color:#f57f17;">Good (SF9-10)</th><th style="background-color:#c62828;">Marginal (SF11-12)</th><th>Total Nodes Served</th></tr>
+<tr><td><strong>GW-1</strong></td><td>Avenida 6 de Diciembre & Avenida Diego de Almagro</td><td>2782.0 m</td><td>689.0 m</td><td>190</td><td>50</td><td>77</td><td><strong>317</strong></td></tr>
+<tr><td><strong>GW-2</strong></td><td>Avenida 6 de Diciembre & Avenida Gaspar de Villarroel</td><td>2787.0 m</td><td>856.4 m</td><td>313</td><td>55</td><td>73</td><td><strong>441</strong></td></tr>
+<tr><td><strong>GW-3</strong></td><td>Bernardo de Legarda & Unnamed Road</td><td>2566.0 m</td><td>936.5 m</td><td>8</td><td>13</td><td>37</td><td><strong>58</strong></td></tr>
+<tr><td><strong>GW-4</strong></td><td>Camilo Egas & Unnamed Road</td><td>2868.0 m</td><td>1022.5 m</td><td>31</td><td>35</td><td>18</td><td><strong>84</strong></td></tr>
+</table>
+<h3>Algorithm: Proposed 3D-M-SAGA</h3>
+<table><tr><th>GW ID</th><th>Location (Intersection)</th><th>Altitude (Terrain + $H_{ant}$)</th><th>Average Serving Radius (m)</th><th style="background-color:#2e7d32;">Excellent (SF7-8)</th><th style="background-color:#f57f17;">Good (SF9-10)</th><th style="background-color:#c62828;">Marginal (SF11-12)</th><th>Total Nodes Served</th></tr>
+<tr><td><strong>GW-1</strong></td><td>Avenida 6 de Diciembre & Avenida Gaspar de Villarroel</td><td>2787.0 m</td><td>886.7 m</td><td>333</td><td>55</td><td>80</td><td><strong>468</strong></td></tr>
+<tr><td><strong>GW-2</strong></td><td>Avenida Diego de Almagro & Avenida de la República</td><td>2783.0 m</td><td>717.4 m</td><td>173</td><td>66</td><td>37</td><td><strong>276</strong></td></tr>
+<tr><td><strong>GW-3</strong></td><td>Avenida de los Conquistadores & Unnamed Road</td><td>2587.0 m</td><td>1205.0 m</td><td>1</td><td>2</td><td>24</td><td><strong>27</strong></td></tr>
+<tr><td><strong>GW-4</strong></td><td>Bernardo de Legarda & Unnamed Road</td><td>2550.0 m</td><td>800.2 m</td><td>10</td><td>5</td><td>36</td><td><strong>51</strong></td></tr>
+<tr><td><strong>GW-5</strong></td><td>Camilo Egas & Unnamed Road</td><td>2868.0 m</td><td>1104.6 m</td><td>31</td><td>36</td><td>20</td><td><strong>87</strong></td></tr>
+</table>
+<h2>4. Heuristic Execution Logs</h2>
+<h3>Greedy SCP</h3>
+<div class="log">>> STARTING GREEDY SCP HEURISTIC\nStep 1: Gateway assigned at index [90]. Marginal Gain: +761 nodes. Current Cov: 83.08%
+Step 2: Gateway assigned at index [85]. Marginal Gain: +62 nodes. Current Cov: 89.85%
+Step 3: Gateway assigned at index [590]. Marginal Gain: +58 nodes. Current Cov: 96.18%
+Step 4: Gateway assigned at index [613]. Marginal Gain: +19 nodes. Current Cov: 98.25%
+>> END GREEDY. Total Gateways: 4</div>
+<h3>K-Medoids 3D</h3>
+<div class="log">>> STARTING SPATIAL K-MEDOIDS 3D\nIteration K=1: Clustering intersections... RF Matrix Evaluated. Coverage: 78.71%
+Iteration K=3: Clustering intersections... RF Matrix Evaluated. Coverage: 94.87%
+Iteration K=5: Clustering intersections... RF Matrix Evaluated. Coverage: 96.40%
+Iteration K=7: Clustering intersections... RF Matrix Evaluated. Coverage: 97.16%
+Iteration K=9: Clustering intersections... RF Matrix Evaluated. Coverage: 97.49%
+Iteration K=11: Clustering intersections... RF Matrix Evaluated. Coverage: 97.60%
+Iteration K=13: Clustering intersections... RF Matrix Evaluated. Coverage: 98.91%
+>> END K-MEDOIDS. Target reached with 13 Gateways.</div>
+<h3>Standard SAGA</h3>
+<div class="log">>> STARTING STANDARD SAGA (Pop Size: 24, Generations: 30)
+Gen 1: Best individual -> Cov: 98.25% | GWs: 4
+Gen 5: Best individual -> Cov: 98.58% | GWs: 10
+Gen 10: Best individual -> Cov: 98.47% | GWs: 14
+Gen 15: Best individual -> Cov: 98.25% | GWs: 4
+Gen 20: Best individual -> Cov: 99.45% | GWs: 10
+Gen 25: Best individual -> Cov: 98.25% | GWs: 4
+Gen 30: Best individual -> Cov: 98.25% | GWs: 4
+>> END STANDARD SAGA. Best solution exported with 4 Gateways.</div>
+<h3>Proposed 3D-M-SAGA</h3>
+<div class="log">>> STARTING 3D-M-SAGA (Pop Size: 24, Generations: 30)
+Gen 1: Best individual -> Cov: 98.25% | GWs: 4
+Gen 5: Best individual -> Cov: 98.91% | GWs: 5
+Gen 10: Best individual -> Cov: 99.24% | GWs: 5
+Gen 15: Best individual -> Cov: 99.56% | GWs: 6
+Gen 20: Best individual -> Cov: 99.34% | GWs: 6
+Gen 25: Best individual -> Cov: 99.24% | GWs: 5
+Gen 30: Best individual -> Cov: 99.24% | GWs: 5
+>> END 3D-M-SAGA. Best solution exported with 5 Gateways.</div>
+</body></html>
